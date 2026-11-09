@@ -14,6 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Vũ Đức Tâm | 2A202603522 | Thành Viên | https://github.com/vuductam20022004 |
 | 2 | Nguyễn Khánh Duy | 2A202603575 | Thành viên | https://github.com/ZuyNoNguyen |
+| 3 | Mai Tuấn Anh   | 2A202603574  | Trưởng nhóm | https://github.com/AnhMT2k4/|
 | 3 | | | | |
 | 4 | | | | |
 
@@ -28,8 +29,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | Vũ Đức Tâm | Mai Tuấn Anh | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Nguyễn Khánh Duy | Vũ Đức Tâm | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
+| CP5 — Quy trình trước/sau | Mai Tuấn Anh| Duy, Đức, Tâm| Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Mai Tuấn Anh| Duy, Đức, Tâm| Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
 
@@ -84,6 +85,28 @@ Bằng chứng (phần nào trong group_report.md, file nào trong report/assets
 **Điều mình học được từ phần nhóm:**
 - Bài học đắt giá nhất là phương pháp The Mom Test: Những nhận xét khen chê chủ quan không quan trọng bằng thực tế mà người dùng đã trải qua trong quá khứ.
 - Không phải bài toán nào cũng cần AI. Đôi khi việc chuẩn hóa lại quy ước làm việc và cấu trúc dữ liệu đầu vào (No AI) đã giải quyết được tới 70% vấn đề với chi phí và rủi ro thấp nhất.
+
+### Mai Tuấn Anh - 2A202603574
+
+Phần việc phụ trách:
+- CP5 — Phân tích và xây dựng quy trình trước/sau .
+- CP5 — Xây dựng Problem Statement v0, xác định Actor, quy trình, Bottleneck, Impact, Success Metric và Boundary.
+Đóng góp cụ thể (mình đã làm gì, ra sản phẩm gì):
+- Phân tích quy trình hiện tại gồm 6 bước, xác định thời gian thực hiện và các điểm gây tốn thời gian cho trưởng nhóm.
+- Đề xuất quy trình tương lai, xác định các bước có thể tự động hóa và vai trò kiểm soát của con người.
+- Xây dựng bảng so sánh Before/After về số bước, thời gian thực hiện, mức độ thủ công và rủi ro phát sinh.
+- Xây dựng Problem Statement v0, xác định rõ đối tượng gặp vấn đề, nút thắt chính, tác động, chỉ số đánh giá thành công và giới hạn của giải pháp.
+Bằng chứng (phần nào trong group_report.md, file nào trong report/assets/, commit nào):
+- group_report.md — Mục 4.1: Quy trình hiện tại.
+- group_report.md — Mục 4.2: Quy trình tương lai.
+- group_report.md — Mục 4.3: Bảng Before/After.
+- group_report.md — Mục 5: Problem Statement v0.
+- group_report.md — Mục 5: Phản biện và điều chỉnh Problem Statement.
+Điều mình học được từ phần nhóm:
+- Biết cách phân tích một quy trình thực tế, xác định Actor, Input, Output và Bottleneck.
+- Hiểu cách so sánh quy trình trước và sau khi áp dụng giải pháp dựa trên các chỉ số cụ thể.
+- Nhận ra rằng không phải vấn đề nào cũng cần AI; cần xác định đúng nút thắt và đánh giá rủi ro trước khi lựa chọn mức độ can thiệp công nghệ.
+
 
 ### HoVaTen-MSSV
 
