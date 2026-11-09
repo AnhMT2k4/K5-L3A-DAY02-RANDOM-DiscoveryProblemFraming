@@ -195,18 +195,19 @@ Ba problem được chọn là **#1 Trích xuất catalogue, #2 Báo cáo tuần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 vấn đề cá nhân đã chuẩn bị và cùng các thành viên trao đổi về khó khăn trong từng vấn đề. | Đóng góp thêm các vấn đề thực tế để nhóm xem xét và lựa chọn. |
+| Phản biện bài của bạn khác | Đặt câu hỏi về tính thực tế, nguyên nhân và mức độ ảnh hưởng của các vấn đề do thành viên khác đề xuất. | Giúp nhóm nhìn nhận vấn đề từ nhiều góc độ và làm rõ những điểm chưa hợp lý. |
+| Nhận phản biện | Lắng nghe các câu hỏi từ thành viên khác về 3 vấn đề cá nhân và trao đổi để làm rõ nội dung. | Nhận ra những giả định còn thiếu bằng chứng và cần kiểm chứng thêm. |
+| Gom cluster / cây OST | Hỗ trợ các thành viên phân loại 12 vấn đề thành 5 nhóm dựa trên những đặc điểm tương đồng. | Giúp nhóm hệ thống các vấn đề và xác định những nhu cầu chung. |
+| Chọn candidate problem | Tham gia đánh giá, so sánh các vấn đề dựa trên những tiêu chí mà nhóm đã thống nhất. | Góp phần lựa chọn vấn đề báo cáo tiến độ hằng tuần để tiếp tục phân tích. |
+| Kiểm chứng / research | Cùng các thành viên tham gia phỏng vấn những trưởng nhóm khác và tìm hiểu các công cụ hỗ trợ báo cáo tiến độ. | Bổ sung thông tin thực tế và cơ sở để nhóm đánh giá vấn đề. |
+| Quy trình nhóm | Cùng nhóm xem xét các bước lập báo cáo hiện tại và góp ý cho quy trình mới có AI hỗ trợ. | Giúp làm rõ những công đoạn tốn thời gian và khả năng cải thiện quy trình. |
+| Problem Statement | Tham gia trao đổi để xác định người gặp vấn đề, bước gây khó khăn và kết quả cần đạt được. | Góp phần hoàn thiện mô tả vấn đề theo hướng cụ thể, dễ hiểu và có thể đo lường. |
+| Mức can thiệp AI  | Phân tích bốn mức No AI, Rule, Workflow và Agent; đề xuất thử Workflow gồm kiểm tra dữ liệu theo quy tắc, dùng AI tổng hợp và soạn bản nháp, sau đó trưởng nhóm kiểm tra và tự gửi. | Làm rõ AI chỉ hỗ trợ xử lý và diễn đạt thông tin; không được tự suy đoán trạng thái công việc hoặc tự gửi báo cáo. Giữ phương án không dùng AI làm đối chứng để đánh giá hiệu quả thực tế. |
+| Quyết định| Đề xuất Go ở phạm vi thử nghiệm nhỏ, so sánh Workflow với cách dùng mẫu báo cáo và quy tắc kiểm tra trên cùng dữ liệu; xác định tiêu chí về thời gian, độ chính xác và số công việc bị bỏ sót. | Đề xuất chỉ tiếp tục khi AI giúp tiết kiệm thời gian mà không làm sai thông tin. Nếu kết quả không tốt hơn cách đơn giản, quay về mẫu báo cáo và checklist. Đây là phương án đề xuất, chưa khẳng định đã được cả nhóm thông qua. |
 
 ---
+
 
 ## 5. Dùng AI
 
@@ -223,22 +224,35 @@ Ba problem được chọn là **#1 Trích xuất catalogue, #2 Báo cáo tuần
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+> **Bản nháp tham khảo:** Nội dung dưới đây được xây dựng từ tài liệu cá nhân và báo cáo nhóm. Đề bài yêu cầu tự viết bằng trải nghiệm thật và không dùng AI viết thay, nên cần tự diễn đạt lại và chỉnh những nhận xét chưa đúng với trải nghiệm của mình trước khi nộp.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Qua việc xem các vấn đề được các bạn đưa ra, tôi nhận thấy một vấn đề đáng chọn không nhất thiết phải có công nghệ phức tạp. Điều quan trọng hơn là xác định rõ ai đang gặp khó khăn, họ gặp ở bước nào và vấn đề có thể đo lường được hay không. Chẳng hạn, việc tìm lại thông báo quan trọng trong nhóm chat và tổng hợp công việc hằng tuần đều liên quan đến thông tin phân tán, nhưng người sử dụng và kết quả mong muốn khác nhau. Vì vậy, cần mô tả từng vấn đề cụ thể thay vì gom tất cả thành nhu cầu dùng AI để tổng hợp thông tin.
+
+**6.2. Nhóm có lúc nào bị “solution-first” (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Khi phân tích bài toán báo cáo tiến độ, hướng dùng AI để tự động viết báo cáo có vẻ hấp dẫn vì dễ hình dung sản phẩm. Tuy nhiên, nếu chưa biết phần tốn thời gian nhất là thu thập, đối chiếu hay viết nội dung thì rất dễ chọn sai giải pháp. Cách xử lý hợp lý là quay về quy trình hiện tại, tách từng bước và xem nguyên nhân nào có bằng chứng. Nhóm cũng cần so sánh với phương án đơn giản như bảng cập nhật chung, thay vì mặc định dùng AI là tốt nhất.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Ở vấn đề trích xuất catalogue vào Excel, ban đầu tôi nghiêng về nhận định bước nhập thông tin thủ công là điểm nghẽn chính. Câu hỏi phản biện đặt ra là giữa cắt ảnh, lấy thông tin và nhập Excel, bước nào thực sự chiếm nhiều thời gian nhất, đồng thời tỷ lệ sai sót hiện tại là bao nhiêu. Điều này khiến tôi nhận ra số giờ phân bổ cho từng bước mới chỉ là ước lượng. Tôi cần đo trên một mẫu catalogue cụ thể trước khi kết luận và lựa chọn công cụ hỗ trợ.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Điểm đáng chú ý trong phần tổng hợp phỏng vấn là hai trưởng nhóm mất khoảng 40–45 phút để chuẩn bị báo cáo, nhưng một trưởng nhóm đã sử dụng Notion với trạng thái công việc được chuẩn hóa chỉ mất khoảng 10–12 phút. Sự khác biệt này cho thấy vấn đề không đơn thuần nằm ở việc viết báo cáo chậm mà còn ở dữ liệu đầu vào chưa thống nhất, thiếu minh chứng và phải hỏi lại nhiều lần. Đây cũng là lý do tôi nghĩ Workflow có AI cần được thử đối chứng với giải pháp không dùng AI, chứ chưa thể khẳng định chắc chắn phương án nào tốt hơn.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Theo tôi, khó nhất là mô tả đúng bottleneck và đặt chỉ số thành công có thể kiểm chứng. Nếu chỉ nói “viết báo cáo mất thời gian” thì chưa đủ để xác định bước cần cải thiện. Hơn nữa, mốc 25–30 phút cho phần tổng hợp và viết khác với mốc 60 phút cho toàn bộ quy trình, nên không thể so sánh trực tiếp. Một Problem Statement tốt cần nêu rõ phạm vi đo, nguồn dữ liệu và yêu cầu không làm sai hoặc bỏ sót tiến độ.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Nếu làm lại, tôi sẽ ưu tiên thu thập dữ liệu và đo thời gian từng bước sớm hơn, thay vì đưa ra nhiều ước tính. Khi phản biện, tôi sẽ hỏi rõ số liệu đến từ trải nghiệm thực tế hay mới là giả định, cách xác định bước nghẽn và tiêu chí chứng minh giải pháp mới tốt hơn cách làm cũ. Đặc biệt, tôi muốn nhóm thử cùng một bộ dữ liệu với phương án dùng mẫu thủ công và Workflow có AI để đánh giá công bằng. Như vậy, quyết định dùng AI sẽ dựa trên kết quả thực tế chứ không chỉ dựa trên mức độ hấp dẫn của ý tưởng.
 
+**6.7. Hiểu bài: Giải thích chuỗi problem → quy trình → metric → boundary → mức can thiệp AI → quyết định (5–8 câu).**
+
+Vấn đề nhóm chọn là trưởng nhóm dự án học tập phải tổng hợp thông tin từ nhiều nguồn để viết báo cáo tiến độ hằng tuần. Quy trình hiện tại gồm kiểm tra công việc trên GitHub, Google Sheets và tin nhắn, sau đó tổng hợp, viết, kiểm tra rồi gửi báo cáo. Nhóm cần đo tổng thời gian thực hiện, số thông tin sai và số công việc quan trọng bị bỏ sót để đánh giá hiệu quả. Ranh giới đặt ra là AI không được tự suy đoán kết quả, tự sửa dữ liệu gốc hoặc tự gửi báo cáo mà phải có trưởng nhóm kiểm tra. Mức can thiệp được đề xuất là Workflow, kết hợp quy tắc kiểm tra đầu vào, AI soạn bản nháp và con người phê duyệt. Nhóm đề xuất thử nghiệm nhỏ và so sánh với cách làm không dùng AI trước khi quyết định có tiếp tục triển khai hay không.
 ---
 
 ## 7. Tài liệu tham khảo
