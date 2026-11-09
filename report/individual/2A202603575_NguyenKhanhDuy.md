@@ -142,16 +142,16 @@ HIỆN TẠI — 140 phút/ngày
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 candidate (#4 Lọc tin nhắn lớp, #5 Task sáng thứ Hai, #6 Hashtag trend F&B/làm đẹp); nhấn mạnh Card #6 về impact thời gian và bài toán kinh doanh thực tế | Đóng góp 3 candidate vào bảng điểm 12 ý; sau khi nhận phản biện từ nhóm, tôi nhận thấy bài #1 của Tuấn Anh vừa sức và khả thi hơn trong phạm vi buổi lab |
+| Phản biện bài của bạn khác | **Câu hỏi tôi đã đặt:**<br>1. Hỏi Tuấn Anh (Card #1): *"Thời gian 25–30 phút tổng hợp báo cáo đã được đo thực tế chưa, hay chỉ là ước lượng? Trong đó bước nào chiếm nhiều thời gian nhất?"*<br>2. Hỏi Tâm (Card #7): *"Trong 180 phút luyện nghe, có bao nhiêu phút thực sự bị mất do không nhận diện được từ? Nguyên nhân chính là thiếu vốn từ hay tốc độ phát âm quá nhanh?"*<br>3. Hỏi Đức (Card #10): *"Với catalogue có nhiều định dạng khác nhau, bước nào gây mất thời gian nhất: cắt ảnh, trích xuất thông tin hay nhập Excel? Tỷ lệ sai sót khi nhập thủ công hiện tại là bao nhiêu?"* | Giúp Tuấn Anh nhận ra mốc 25–30 phút mới chỉ là ước lượng phần tổng hợp/viết chứ chưa đo toàn quy trình; nhóm thống nhất cần đo lại baseline tách biệt thời gian làm chủ động và thời gian chờ ở CP4–CP5 |
+| Nhận phản biện | **Câu hỏi tôi nhận được:**<br>1. Tuấn Anh hỏi Card #4: *"Trong 50–60 tin nhắn mỗi ngày, thực tế có bao nhiêu thông báo quan trọng bị bỏ lỡ? Vấn đề là số lượng tin nhắn quá nhiều hay do chưa có cách lọc thông báo hiệu quả?"*<br>2. Tâm hỏi Card #6: *"Số lượng hashtag tăng có thực sự phản ánh xu hướng mua hàng không? Làm thế nào để phân biệt trend có tiềm năng kinh doanh với trend chỉ mang tính giải trí?"* | **Tôi đã sửa gì:**<br>• Ở Card #4: Thừa nhận số thông báo quan trọng thực tế chỉ 2–3 tin/tuần, phần lớn do thói quen đọc lướt; nếu nhóm đổi quy ước ghim kênh thông báo (No AI) thì đã giải quyết được phần lớn.<br>• Ở Card #6: Nhận thấy rủi ro Feasibility/Value của việc cào dữ liệu hashtag và phân tích sức mua là quá lớn trong phạm vi lab 4 tiếng, nên đồng thuận rút về ủng hộ Card #1 |
+| Gom cluster / cây OST | Cùng nhóm gom 12 candidate thành 5 cluster A–E; tham gia xây dựng cây OST bám theo Outcome của Card #1 | Tách rõ tầng Outcome (giảm thời gian báo cáo tuần) với tầng Opportunity (A: Thu thập phân tán, B: Đối chiếu tiến độ, C: Soạn nội dung); kiên quyết gạch bỏ các Solution trá hình (Dashboard tự động, Chatbot) |
+| Chọn candidate problem | Tham gia chấm điểm 12 candidate trên 7 tiêu chí; đồng thuận chọn Candidate #1 (29/35 điểm) | Chọn được bài toán #1 làm trọng tâm cho cả nhóm vì có actor rõ, quy trình chuẩn và vừa sức thực hiện trong lab |
+| Kiểm chứng / research | **Chủ trì thực hiện toàn bộ CP4:**<br>1. Lập Assumption Map với 6 giả định và chọn 3 giả định ưu tiên (#1, #2, #5).<br>2. Trực tiếp phỏng vấn sâu 3 trưởng nhóm (P01 Đồ án phần mềm, P02 BTL Kinh tế, P03 NCKH) theo phương pháp The Mom Test.<br>3. Research 3 giải pháp thực tế (Google Sheets, Asana Smart Status, Notion Project Agents). | • Thu thập được tín hiệu phản bác then chốt từ P03 (dùng Notion chuẩn hóa No AI chỉ mất 10–12 phút).<br>• Giúp nhóm sửa lại Bottleneck: vấn đề không phải do viết chậm mà do khâu gom/đối chiếu dữ liệu không đồng nhất.<br>• Cung cấp cơ sở thực chứng để nhóm thiết kế giải pháp Workflow kết hợp Rule/No AI |
+| Quy trình nhóm | Đóng góp dữ liệu phỏng vấn thực tế để nhóm xây dựng sơ đồ hiện tại (6 bước, 60 phút) và sơ đồ tương lai (4 bước, 20 phút) | Giúp nhóm xác định đúng bottleneck hiện tại nằm ở bước 5 (phân tích, kết nối thông tin 15') và bước 4 (tổng hợp 15'); đưa bước kiểm soát con người (Human-in-the-loop) vào quy trình tương lai |
+| Problem Statement | Cùng nhóm hoàn thiện Problem Statement v0 và nâng cấp lên v1 dựa trên dữ liệu phỏng vấn CP4 | v1 bổ sung thêm ràng buộc: tách thời gian xác minh khỏi soạn thảo, đưa 5 tiêu chí eval đầu ra cho AI và quy định Boundary nghiêm ngặt (AI không tự bịa trạng thái Done) |
+| Mức can thiệp AI | Thảo luận và thống nhất mức can thiệp: Chọn **Workflow (Rule + AI + Người duyệt)**, giữ No AI/Rule làm đối chứng | Tránh được bẫy nhảy thẳng lên Agent phức tạp; tận dụng Rule để kiểm tra dữ liệu và AI hỗ trợ soạn nháp |
+| Quyết định | Tham gia đánh giá 4 rủi ro lớn (Value, Usability, Feasibility, Viability) và xây dựng kế hoạch pilot | Đưa ra quyết định **Go (pilot quy mô nhỏ)** kèm ngưỡng dừng nghiêm ngặt: nếu sau 3 lần thử mà lọt lỗi hoặc không nhanh hơn No AI/Rule thì lập tức quay về No AI |
 
 ---
 
@@ -161,33 +161,43 @@ HIỆN TẠI — 140 phút/ngày
 |---|---|---|---|---|
 | CP1 Scan | Chuyển 5 ý nháp sang Job Story, tách mục kế toán thành 5 dòng riêng, gợi ý lăng kính "Pain từ người khác" (ý #10) | Chỉ ra ý nháp thiếu vế "để [kết quả]"; gợi ý lăng kính còn thiếu để đạt tiêu chuẩn rubric | Gợi ý 4 hướng ý tưởng và ước tính ban đầu | Tôi chọn hướng khách hàng giục lời hẹn trôi tin và tự kiểm chứng với trải nghiệm cá nhân: 3–4 lần/tháng, 15–20 phút/lần, 1 lần suýt hỏng hợp đồng |
 | CP2 Problem Card | Đóng vai PM hoài nghi để phản biện 3 Problem Card (tìm lỗ hổng về bottleneck, tính khả thi của metric, và khả năng giải quyết bằng No AI) | Chỉ ra Card 1 có thể giải quyết bằng filter tin nhắn, Card 2 là bài toán Rule/habit hơn là AI, và Card 3 hashtag tăng chưa chắc phản ánh đúng sức mua thực tế | Gợi ý loại bỏ Card 3 vì cho rằng quá khó đo lường | Tôi giữ lại Card 3 bằng cách cụ thể hóa cách đo bằng số lượng hashtag tăng giảm, đồng thời sửa Card 1 và Card 2 để làm rõ ranh giới No AI vs AI |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Tìm kiếm các công cụ và pattern đã giải quyết bài toán gom dữ liệu và báo cáo tiến độ | Gợi ý nhanh các tính năng: Google Sheets (Dropdown/Filter), Asana Smart Status, Notion Project Agents | Trích dẫn ban đầu còn chung chung về tính năng marketing, chưa chỉ ra rủi ro triển khai thực tế trong nhóm sinh viên | Tôi tự mở từng link chính thức, kiểm tra đối chiếu ngày 09/11/2026, bổ sung cột Khoảng trống/Rủi ro và bài học cho nhóm (ưu tiên No AI) |
+| CP5 Quy trình | Chuyển mô tả các bước làm việc của trưởng nhóm thành sơ đồ quy trình text diagram và bảng actor/input/output | Định dạng sơ đồ before/after nhanh, tính toán tỷ lệ cắt giảm thời gian (từ 60' xuống 20') | AI ban đầu tự động gộp bước kiểm tra và gửi thành một, làm mất đi bước kiểm soát Human-in-the-loop | Tôi tách riêng bước 3 (Trưởng nhóm kiểm tra/sửa 15') và bước 4 (Gửi 1'), bổ sung Boundary và Fallback rõ ràng |
+| CP5–6 Problem Statement | Rà soát lỗi logic giữa Problem Statement v0 và v1, hỗ trợ xây dựng bộ tiêu chí eval | Chỉ ra v0 chỉ đo thời gian mà thiếu đo chất lượng và tính trung thực của dữ liệu | Gợi ý một số tiêu chí mơ hồ kiểu "văn phong chuyên nghiệp, báo cáo hấp dẫn" | Tôi gạch bỏ tiêu chí cảm tính, thay bằng 5 tiêu chí định lượng đo được: tính chính xác trạng thái, độ đầy đủ blocker, khả năng truy vết nguồn, độ dễ sửa và hiệu quả thời gian |
+| CP6 Mức can thiệp / quyết định | So sánh 4 mức can thiệp (No AI, Rule, Workflow, Agent) và đánh giá 4 rủi ro | Giúp cấu trúc bảng 4 mức can thiệp rõ ràng, gợi ý các câu hỏi trọng tâm cho Value, Usability, Feasibility, Viability | AI có xu hướng khuyên chọn Agent để "tự động hóa hoàn toàn" việc gửi báo cáo cho giảng viên | Tôi kiên quyết bác bỏ Agent, giữ mức Workflow (Rule + AI + Người duyệt) và đặt ngưỡng dừng nghiêm ngặt quay về No AI nếu có lỗi |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
+Khi nghe các bạn pitch, tôi nhận ra góc nhìn của mỗi người gắn liền với bối cảnh thực tế họ đang trải qua: Tuấn Anh đau đầu với việc quản lý khi làm trưởng nhóm đồ án; Tâm thì bị xung đột giữa lịch học tiếng Đức và thực tập nên không thể kiểm soát hết; Đức thì gặp khó với việc nhập liệu catalogue và làm báo cáo tuần cá nhân. Bài học lớn nhất là: vấn đề nào cũng có vẻ rất cần AI khi mới nghe kể lướt qua, nhưng khi đặt câu hỏi chất vấn vào số phút thực tế và nguyên nhân gốc rễ, nhiều bài toán thực chất chỉ là do thiếu quy ước làm việc hoặc chưa tận dụng công cụ có sẵn (như Discord search hay bảng Excel chuẩn). Lắng nghe phản biện giúp tôi thoát khỏi tư duy cũ về bài toán cá nhân để đánh giá khách quan bài toán nào xứng đáng giải quyết nhất cho cả nhóm.
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
+Có, nhóm bị "solution-first" rất rõ ở giai đoạn đầu CP3 và CP5. Khi vừa chọn bài toán báo cáo tuần của Tuấn Anh, phản xạ đầu tiên của cả nhóm là bàn xem nên dùng chatbot ChatGPT hay viết Agent tự cào tin nhắn Zalo về tóm tắt. Nhóm chỉ nhận ra khi vẽ cây OST ở mục 2.3: các nhánh "Cần chatbot viết báo cáo" hay "Dashboard tự động" thực chất là Solution bị nhét nhầm vào tầng Opportunity. Nhóm đã xử lý bằng cách gạch bỏ các từ khóa công nghệ khỏi cây OST, quay lại trả lời 3 câu hỏi cốt lõi: Ai đang đau? Đau ở bước nào trong quy trình? Mất bao nhiêu phút? Nhờ vậy nhóm mới thấy nỗi đau thực sự là khâu đối chiếu dữ liệu phân tán chứ không phải việc gõ chữ.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
+Tôi đã đổi ý đối với Candidate #6 của mình (Theo dõi hashtag bắt trend F&B/làm đẹp). Ban đầu, tôi rất tâm huyết và muốn chọn bài này làm đề tài nhóm vì nó gắn với việc kinh doanh thực tế của tôi và tốn tới 2–3 giờ/ngày. Tuy nhiên, khi bạn Tâm đặt câu hỏi phản biện: *"Số lượng hashtag tăng có thực sự phản ánh xu hướng mua hàng không? Làm sao phân biệt trend kiếm ra tiền với trend giải trí?"*, tôi nhận ra mình chưa thể chứng minh được mối liên hệ trực tiếp giữa số lượng hashtag và doanh thu trong phạm vi một buổi lab 4 tiếng. Nhận thấy rủi ro Feasibility và Value của bài #6 quá cao, tôi đã chủ động rút lui ý tưởng này để ủng hộ bài toán báo cáo tuần (#1) của Tuấn Anh vì nó vừa sức và có quy trình đo lường khả thi hơn nhiều.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
+Điều làm tôi bất ngờ nhất là kết quả phỏng vấn bạn P03 (Trưởng nhóm NCKH sinh viên). Trước khi phỏng vấn, nhóm tôi nghĩ rằng ai làm báo cáo tuần cũng phải mất 30–45 phút đánh vật với câu chữ. Nhưng P03 cho biết nhóm bạn ấy chỉ mất đúng 10–12 phút mỗi tuần vì đã có sẵn một bảng Notion phân chia trạng thái rõ ràng. Bằng chứng thực tế này khác hoàn toàn với giả định của nhóm: hóa ra vấn đề tốn thời gian hoàn toàn có thể giải quyết bằng giải pháp **No AI** (chuẩn hóa dữ liệu đầu vào) mà không nhất thiết phải dùng đến AI. Đây là tín hiệu phản bác rất quý giá với chúng tôi, khiến nhóm thay đổi toàn bộ hướng tiếp cận: đưa No AI/Rule làm đối chứng bắt buộc và đặt ngưỡng dừng khắt khe cho giải pháp AI Workflow.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**  
+Điều khó nhất là viết mục **Success Metric** và **Boundary** sao cho không bị cài cắm giải pháp. Khi viết metric, rất dễ bị sa đà vào những từ ngữ mơ hồ như "báo cáo nhanh hơn, chuyên nghiệp hơn". Nhóm đã phải thảo luận rất nhiều để tách bạch được: đâu là baseline hiện tại (~60 phút toàn quy trình), đâu là target mong muốn (≤20 phút), và quan trọng nhất là đo lường chất lượng thế nào để tránh tình trạng báo cáo nhanh hơn nhưng nộp bài sai số liệu. Việc đặt ra Boundary "AI không được tự suy đoán trạng thái Done khi chưa có minh chứng" cũng là một thử thách lớn để giữ an toàn tuyệt đối cho người dùng.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
+Nếu làm lại từ đầu, tôi sẽ yêu cầu nhóm đi phỏng vấn người dùng (CP4) ngay từ trước khi vẽ sơ đồ quy trình chi tiết ở CP5. Việc nhóm ngồi tự tưởng tượng quy trình trước khi có số liệu phỏng vấn đã làm tốn khá nhiều thời gian tranh luận lý thuyết. Ngoài ra, tôi sẽ phản biện nhóm mạnh mẽ hơn ở khâu lựa chọn mức can thiệp: thay vì chọn ngay Workflow có AI cho pilot, tôi sẽ thúc đẩy nhóm thử nghiệm triệt để phương án No AI (bảng Google Sheets chuẩn hóa) trong 1 tuần trước. Nếu No AI đã giảm được thời gian xuống 15 phút như trường hợp của P03 thì nhóm hoàn toàn có thể tự tin kết luận "No AI là đủ" mà không cần tốn chi phí xây dựng và kiểm soát rủi ro cho AI.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.  
+Bài toán của nhóm xuất phát từ nỗi đau của trưởng nhóm dự án học tập khi mất tới 60 phút mỗi tuần để thu thập, đối chiếu dữ liệu phân tán và viết báo cáo tiến độ nộp giảng viên. Quy trình hiện tại gồm 6 bước thủ công, trong đó nút thắt lớn nhất nằm ở khâu tổng hợp và viết nhận xét tiến độ (30 phút) do thông tin đầu vào bị rời rạc. Thành công được đo lường bằng việc cắt giảm thời gian toàn quy trình xuống ≤20 phút, đồng thời đảm bảo 100% đầu việc có nguồn minh chứng và không bỏ sót blocker. Ranh giới (Boundary) nghiêm ngặt là AI chỉ hỗ trợ trích xuất, soạn nháp trong quy trình định sẵn, tuyệt đối không được tự suy đoán trạng thái hay tự ý gửi báo cáo mà phải có con người phê duyệt (Human-in-the-loop). Nhóm lựa chọn mức can thiệp là **Workflow** (kết hợp Rule kiểm tra tính đầy đủ và AI hỗ trợ soạn nháp), song song lấy No AI/Rule làm đối chứng. Quyết định cuối cùng là **Go ở quy mô pilot nhỏ**, kèm ngưỡng dừng nếu Workflow không nhanh hơn No AI hoặc phát sinh sai sót thông tin thì lập tức quay về quy trình thủ công.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Tài liệu và snapshot phỏng vấn thực tế của nhóm: P01 (Đồ án Kỹ thuật phần mềm), P02 (Bài tập lớn Kinh tế vi mô), P03 (Nghiên cứu khoa học sinh viên) tại mục 3.2 của `group_report.md`.
+- [Google Sheets — Dropdown & Filter Views](https://support.google.com/docs/answer/186103?hl=en).
+- [Asana — Smart Status & AI summaries](https://help.asana.com/s/article/smart-status).
+- [Notion — Automate project updates and reporting with Custom Agents](https://www.notion.com/help/guides/automate-project-updates-and-reporting-with-custom-agents).
+- Google PAIR: [People + AI Guidebook — User Needs & Defining Success](https://pair.withgoogle.com/guidebook/).
+- Anthropic: [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents).
