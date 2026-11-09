@@ -154,17 +154,27 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 - Mỗi người đều có 1 vấn đề riêng,  các bạn đều chỉ khá rõ actor, quy trình và khó khăn trong từng vấn đề của mình.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 - Chưa có
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
 - Tôi đã đổi ý sau 1 lần phản biện, khi mà các thành viên chỉ rõ metric giảm thời gian chưa đủ, cần phải có độ chính xác và rõ ràng hơn.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
 Qua hoạt động kiểm chứng, tôi nhận thấy cần quan tâm đến cách các nhóm khác đang thu thập, quản lý và tổng hợp tiến độ. Điều này giúp tôi hiểu rằng một vấn đề chỉ thực sự có cơ sở để lựa chọn khi có thể tìm thấy những khó khăn tương tự từ người gặp vấn đề.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
 -Khi viết Problem Statement cho Weekly Report, nhóm phải thống nhất được ai là người gặp vấn đề, họ cần thực hiện công việc gì, gặp khó khăn trong hoàn cảnh nào và hậu quả của khó khăn đó.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 - Tôi sẽ chú ý hơn đến chất lượng thông tin đầu ra, chẳng hạn tỷ lệ thông tin chính xác, số nội dung bị thiếu và số lần phải chỉnh sửa. Khi phản biện nhóm, tôi muốn đặt nhiều câu hỏi hơn về tính khả thi của các metric, dữ liệu đầu vào và những trường hợp AI có thể tổng hợp sai.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
 Problem của nhóm RANDOM là trưởng nhóm mất nhiều thời gian tổng hợp tiến độ công việc hằng tuần từ GitHub, Google Sheets và tin nhắn của các thành viên. Quy trình hiện tại gồm 6 bước, mất khoảng 60 phút, trong đó khâu tổng hợp dữ liệu và viết báo cáo là bottleneck chính. Nhóm đặt mục tiêu giảm thời gian hoàn thành báo cáo xuống dưới 20 phút nhưng vẫn phải đảm bảo thông tin đầy đủ, chính xác và không tăng số lần chỉnh sửa. Về boundary, nhóm tập trung hỗ trợ công việc tổng hợp báo cáo tiến độ, không thay thế hoàn toàn vai trò quản lý và đánh giá của trưởng nhóm. AI được sử dụng để thu thập, phân loại thông tin tiến độ, nhận diện khó khăn và tạo bản nháp báo cáo. Người phụ trách vẫn phải kiểm tra, chỉnh sửa và xác nhận nội dung trước khi gửi cho giảng viên. Cuối cùng, nhóm lựa chọn hướng sử dụng AI như một công cụ hỗ trợ thay vì giao toàn bộ quy trình và quyền quyết định cho AI.
 ---
 
