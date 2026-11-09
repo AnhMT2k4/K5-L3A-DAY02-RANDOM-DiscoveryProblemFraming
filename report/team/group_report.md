@@ -143,3 +143,109 @@ Bảng điểm dưới đây là phân tích đề xuất có AI hỗ trợ từ
 
 **Xử lý bất đồng (nếu có):** 
 
+<a id="cp4"></a>
+
+## 3. Kiểm chứng + research giải pháp đã có (CP4)
+
+**Trạng thái bằng chứng:** Nhóm đã hoàn thành phỏng vấn trực tiếp 3 trưởng nhóm dự án học tập ngoài nhóm RANDOM theo phương pháp The Mom Test, thu thập bằng chứng thực tế về quy trình báo cáo tuần và đối chiếu với 3 giải pháp công nghệ chính thức trên thị trường.
+
+---
+
+### 3.1. Assumption Map
+
+Điểm đánh giá theo quy ước: 
+- **Mức độ quan trọng (1–5):** 1 = sai lệch không ảnh hưởng bài toán; 5 = nếu sai thì toàn bộ tiền đề bài toán sụp đổ.
+- **Mức độ bằng chứng hiện có (1–5):** 1 = giả định chủ quan, chưa có kiểm chứng; 5 = nhiều bằng chứng thực tế trực tiếp xác nhận.
+
+| # | Giả định | Loại rủi ro | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+|---:|---|---|---:|---:|:---:|
+| 1 | Các trưởng nhóm khác cũng mất từ 25–40 phút mỗi tuần cho việc tổng hợp và viết báo cáo tiến độ | Value | 5 | 2 | **Có** |
+| 2 | Bước nghẽn tốn thời gian nhất là đọc, đối chiếu và viết nội dung, chứ không phải thời gian chờ thành viên nộp cập nhật | Value | 5 | 2 | **Có** |
+| 3 | Thành viên nhóm sẵn sàng cập nhật dữ liệu vào một mẫu bảng biểu chung trước hạn với thao tác dưới 2 phút | Usability | 4 | 2 | **Có** |
+| 4 | Dữ liệu tiến độ từ các thành viên đủ rõ ràng để trưởng nhóm xác định được việc nào xong, việc nào kẹt mà không cần hỏi lại nhiều lần | Feasibility | 5 | 2 | **Có** |
+| 5 | Chỉ cần chuẩn hóa mẫu biểu đầu vào (template) và checklist thủ công là đã giảm được 50% thời gian mà chưa cần đến AI | Feasibility | 4 | 2 | **Có** |
+| 6 | Giảng viên/người nhận chấp nhận định dạng báo cáo tóm tắt dạng bảng chuẩn hóa, không đòi hỏi viết văn bản dài dòng | Viability | 4 | 3 | Sau pilot |
+
+**Giả định ưu tiên kiểm chứng ngay:** Giả định **#1, #2 và #5**. Nếu việc ngồi viết báo cáo không phải là nỗi đau thực sự (mà là do chờ đợi thành viên), hoặc giải pháp No AI (template) đã giải quyết triệt để vấn đề thì nhóm không có lý do gì để đầu tư xây dựng AI.
+
+---
+
+### 3.2. Kiểm chứng người dùng (The Mom Test)
+
+Nhóm đã tiến hành phỏng vấn sâu 3 trưởng nhóm dự án học tập tại các lớp học phần khác nhau (đều có kỳ làm bài tập lớn/đồ án học kỳ này, không thuộc nhóm RANDOM). Phỏng vấn tuân thủ 3 nguyên tắc của *The Mom Test*: chỉ hỏi về sự việc cụ thể trong quá khứ, không giới thiệu ý tưởng giải pháp, không hỏi câu giả định *"Bạn có muốn..."*.
+
+#### Interview Snapshot 1 (P01 — Trưởng nhóm Đồ án Kỹ thuật phần mềm, nhóm 4 người)
+
+| Trường | Nội dung thực tế |
+|---|---|
+| **Người được hỏi** | Trưởng nhóm đồ án môn Kỹ thuật phần mềm (4 thành viên), kiêm sinh viên năm 3 |
+| **Thời điểm / Hình thức** | 12h45 ngày 09/11/2026 — Phỏng vấn online qua google meet |
+| **Câu nói đáng nhớ nhất** | *"Ngồi viết báo cáo mất tầm 15 phút thôi, nhưng cái ức chế nhất là từ tối Chủ nhật phải nhắn tin giục từng đứa trên Zalo, đứa nộp link Drive đứa nộp tin nhắn chữ, đọc xong không biết nó đã test code chưa."* |
+| **Lần gần nhất thực hiện** | Tối Chủ nhật tuần trước (01/11), gửi báo cáo tuần thứ 6 cho giảng viên hướng dẫn |
+| **Workaround hiện tại** | Dùng Google Docs chung: Trưởng nhóm tạo sẵn khung, tag tên từng người vào giục viết |
+| **Thời gian thực tế** | Tổng cộng 45 phút: Mất 30 phút rà soát, chat qua lại để hỏi rõ trạng thái code; 15 phút tổng hợp thành bản hoàn chỉnh |
+| **Insight rút ra** | Nỗi đau không nằm ở kỹ năng viết chữ, mà nằm ở việc dữ liệu đầu vào bị phân tán và không đồng nhất về định nghĩa "hoàn thành" |
+
+#### Interview Snapshot 2 (P02 — Trưởng nhóm Bài tập lớn Kinh tế vi mô, nhóm 5 người)
+
+| Trường | Nội dung thực tế |
+|---|---|
+| **Người được hỏi** | Trưởng nhóm Bài tập lớn môn Kinh tế (5 thành viên, nhiều bạn trái ngành) |
+| **Thời điểm / Hình thức** | 13h15 ngày 09/11/2026 — Phỏng vấn online qua google meet |
+| **Câu nói đáng nhớ nhất** | *"Tuần trước mình tổng hợp mất gần 40 phút vì một bạn báo 'đang làm số liệu', đến lúc nộp thầy thì thầy bảo chưa thấy biểu đồ đâu. Lại phải mở máy sửa vội."* |
+| **Lần gần nhất thực hiện** | Sáng thứ Hai tuần này (09/11), trước giờ lên lớp 1 tiết |
+| **Workaround hiện tại** | Nhắn tin riêng cho từng bạn qua Messenger, sau đó tự copy-paste vào file Word nộp bài |
+| **Thời gian thực tế** | ~40 phút: 25 phút đọc tin nhắn và copy vào bảng, 15 phút format lại định dạng |
+| **Insight rút ra** | Việc thiếu một cấu trúc cập nhật bắt buộc (thiếu kết quả đính kèm) khiến trưởng nhóm phải tự mình kiểm chứng lại tính xác thực |
+
+#### Interview Snapshot 3 (P03 — Trưởng nhóm Dự án NCKH Sinh viên, nhóm 3 người)
+
+| Trường | Nội dung thực tế |
+|---|---|
+| **Người được hỏi** | Trưởng nhóm nghiên cứu khoa học sinh viên (3 thành viên) |
+| **Thời điểm / Hình thức** | 14h30 ngày 09/11/2026 — Phỏng vấn qua Google Meet ngắn (10 phút) |
+| **Câu nói đáng nhớ nhất** | *"Nhóm mình dùng một bảng Notion có cột trạng thái sẵn, mỗi tuần mình chỉ mất 10 phút copy các gạch đầu dòng là xong. Thầy chỉ cần nắm tiến độ chứ không cần văn phong trau chuốt."* |
+| **Lần gần nhất thực hiện** | Thứ Sáu tuần trước (06/11) |
+| **Workaround hiện tại** | Database Notion phân chia theo tuần, thành viên tự điền trạng thái To-do/Done |
+| **Thời gian thực tế** | 10–12 phút/tuần |
+| **Insight rút ra (Tín hiệu phản bác)** | Khi quy trình và công cụ đầu vào đã chuẩn hóa (No AI), thời gian tổng hợp báo cáo tự động giảm sâu xuống mức chấp nhận được, không cần bất kỳ công cụ AI nào |
+
+---
+
+#### Tổng hợp tín hiệu xác nhận và phản bác
+
+| Nguồn | Số mẫu | Tín hiệu xác nhận pain | Tín hiệu phản bác / Góc nhìn mới |
+|---|---:|---|---|
+| **Phỏng vấn sâu The Mom Test** | 3 trưởng nhóm | • 2/3 người (P01, P02) mất 35–45 phút mỗi tuần cho báo cáo.<br>• Xác nhận dữ liệu bị phân mảnh ở nhiều kênh (Zalo, Messenger) gây tốn thời gian đọc, lọc. | • **Phản bác giả định #2:** Bước viết chữ chỉ mất 10–15 phút; bước mất nhiều công sức nhất là **đối chiếu và làm rõ tính xác thực của dữ liệu**.<br>• **P03 chứng minh:** Nếu có một bảng cập nhật cố định (No AI), thời gian chỉ còn 10 phút, không cần AI can thiệp. |
+
+---
+
+### 3.3. Nhóm đã sửa problem thế nào sau kiểm chứng
+
+Kết quả kiểm chứng thực tế đã làm nhóm **thay đổi căn bản góc nhìn bài toán**:
+
+1. **Thu hẹp và định nghĩa lại Bottleneck:** 
+   - *Ban đầu (v0):* Nhóm cho rằng nút thắt là bước ngồi tổng hợp và hành văn viết báo cáo (25–30 phút).
+   - *Sau kiểm chứng:* Nhận ra bước nghẽn thực sự là **khâu đối chiếu và xác nhận tính đầy đủ/chính xác của dữ liệu đầu vào** (chiếm 20–25 phút). Việc viết câu chữ chỉ là bước thể hiện kết quả (10–15 phút).
+2. **Loại bỏ ý tưởng xây dựng AI tự động hóa:**
+   - Dữ liệu phỏng vấn từ P03 cho thấy giải pháp **chuẩn hóa mẫu biểu và quy ước đầu vào (No AI)** đã đủ sức cắt giảm 70% thời gian của trưởng nhóm.
+   - Nếu áp dụng AI tạo sinh (LLM) để viết báo cáo mà đầu vào của thành viên vẫn rời rạc, AI sẽ bịa đặt tiến độ (hallucination), dẫn tới rủi ro thông tin sai lệch khi gửi giảng viên.
+3. **Cập nhật mục tiêu giải pháp:**
+   - Tập trung thiết kế quy trình **No AI**: Bảng cập nhật trạng thái chung có cấu trúc bắt buộc + Checklist nghiệm thu của trưởng nhóm.
+
+---
+
+### 3.4. Research giải pháp đã có trên thị trường
+
+Nguồn tài liệu chính thức đã được mở, đọc và đối chiếu ngày **09/11/2026**:
+
+| Công cụ / Pattern | Link tài liệu chính thức | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / Rủi ro | Bài học kinh nghiệm cho nhóm |
+|---|---|---|---|---|---|
+| **Google Sheets — Dropdown & Filter Views** | [Sheets Dropdown](https://support.google.com/docs/answer/186103?hl=en), [Filter Data](https://support.google.com/docs/answer/3540681?hl=en) | Bước 1 & Bước 2 (Thu thập & chuẩn hóa dữ liệu đầu vào) | Miễn phí, sinh viên quen thuộc; menu thả xuống (dropdown) ép thành viên chọn đúng trạng thái chuẩn (Done / In Progress / Blocked). | Vẫn cần con người tự giác nhập; không tự nhắc nhở hạn nộp bài. | **Áp dụng ngay:** Tạo bảng chung với danh mục trạng thái cố định để triệt tiêu thời gian hỏi lại. |
+| **Asana Smart Status** | [Asana Help: Smart Status](https://help.asana.com/s/article/smart-status) | Bước 3 (Soạn nháp báo cáo trạng thái) | Dùng AI phân tích các task đã hoàn thành để tự sinh bản tóm tắt; người dùng có thể xem trước và sửa trước khi đăng. | Yêu cầu toàn bộ nhóm phải làm việc trên hệ thống Asana trả phí; sinh viên khó áp dụng rộng rãi. | **Bài học về Boundary:** Luôn phải có bước con người phê duyệt (Human-in-the-loop) trước khi báo cáo được gửi đi. |
+| **Notion Project Reporting Agents** | [Notion Reporting Guide](https://www.notion.com/help/guides/automate-project-updates-and-reporting-with-custom-agents) | Bước 2 → Bước 4 (Tự động kéo dữ liệu vào template) | Tự động quét cơ sở dữ liệu để lọc ra các task tuần hiện tại và điền vào mẫu có sẵn. | Phức tạp trong khâu cấu hình quyền truy cập và dữ liệu ban đầu; dễ gây thừa thông tin nếu task vụn vặt. | **Bài học về mức can thiệp:** Chỉ nên dùng Rule/Agent khi số lượng task quá lớn; với nhóm sinh viên 3–5 người, mẫu thủ công là tối ưu nhất. |
+
+**Kết luận Research:**
+Thị trường đã có đầy đủ các công cụ từ mức đơn giản nhất (Google Sheets) đến mức Workflow tích hợp AI (Asana) và Agent tự động (Notion). Tuy nhiên, đối với bài toán báo cáo tuần của nhóm học tập quy mô 3–5 người:
+- **Tự xây dựng AI hay Agent là lãng phí và thừa thãi** (over-engineering).
+- **Phương án tối ưu nhất:** Kết hợp cấu trúc dữ liệu bảng của **Google Sheets** (No AI / Rule mức thấp) với một **Template báo cáo chuẩn hóa**. Đây là cơ sở vững chắc để nhóm đưa ra quyết định **Not Yet** đối với AI và tập trung triển khai thử nghiệm giải pháp **No AI** ở các bước tiếp theo.
