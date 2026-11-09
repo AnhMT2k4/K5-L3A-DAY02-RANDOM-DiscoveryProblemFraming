@@ -25,8 +25,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
+| CP3 — Hội tụ nhóm | Vũ Đức Tâm | Mai Tuấn Anh | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Vũ Đức Tâm | Nguyễn Khánh Duy | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
 | CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | | | Problem Statement v0 |
