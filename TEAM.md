@@ -86,7 +86,7 @@ Bằng chứng (phần nào trong group_report.md, file nào trong report/assets
 - Bài học đắt giá nhất là phương pháp The Mom Test: Những nhận xét khen chê chủ quan không quan trọng bằng thực tế mà người dùng đã trải qua trong quá khứ.
 - Không phải bài toán nào cũng cần AI. Đôi khi việc chuẩn hóa lại quy ước làm việc và cấu trúc dữ liệu đầu vào (No AI) đã giải quyết được tới 70% vấn đề với chi phí và rủi ro thấp nhất.
 
-### Mai Tuấn Anh - 2A202603574
+### MaiTuanAnh-2A202603574
 
 Phần việc phụ trách:
 - CP5 — Phân tích và xây dựng quy trình trước/sau .
