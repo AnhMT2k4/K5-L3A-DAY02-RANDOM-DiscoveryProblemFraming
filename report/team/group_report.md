@@ -145,7 +145,7 @@ Bảng điểm dưới đây là phân tích đề xuất có AI hỗ trợ từ
 
 <a id="cp4"></a>
 
-## 3. Kiểm chứng + research giải pháp đã có (CP4)
+## 3. Kiểm chứng + research giải pháp đã có
 
 **Trạng thái bằng chứng:** Nhóm đã hoàn thành phỏng vấn trực tiếp 3 trưởng nhóm dự án học tập ngoài nhóm RANDOM theo phương pháp The Mom Test, thu thập bằng chứng thực tế về quy trình báo cáo tuần và đối chiếu với 3 giải pháp công nghệ chính thức trên thị trường.
 
