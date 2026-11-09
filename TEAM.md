@@ -12,8 +12,8 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Vũ Đức Tâm | 2A202603522 | Thành Viên | https://github.com/vuductam20022004 |
-| 2 | | | | |
+| 1 | Vũ Đức Tâm     | 2A202603522  | Thành Viên  | https://github.com/vuductam20022004 |
+| 2 | Mai Tuấn Anh   | 2A202603574  | Trưởng nhóm | https://github.com/AnhMT2k4/|
 | 3 | | | | |
 | 4 | | | | |
 
@@ -28,8 +28,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | Vũ Đức Tâm | Mai Tuấn Anh | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Vũ Đức Tâm | Nguyễn Khánh Duy | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
+| CP5 — Quy trình trước/sau | Mai Tuấn Anh| Duy, Đức, Tâm| Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Mai Tuấn Anh| Duy, Đức, Tâm| Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
 
@@ -64,6 +64,27 @@ Bằng chứng (phần nào trong group_report.md, file nào trong report/assets
 - Tôi hiểu rõ hơn cách mô tả vấn đề bằng người gặp khó khăn, bước nghẽn và dấu hiệu đo được, trước khi nghĩ đến công cụ hay giải pháp.
 - Tôi thấy cần so sánh các candidate trên cùng tiêu chí. Điểm cao hơn giúp chọn hướng đáng kiểm chứng, nhưng chưa chứng minh bài toán chắc chắn có giá trị hơn ngoài thực tế.
 - Tôi học được cách phân biệt số tự ước lượng, số liệu ví dụ và số đo thực tế; mỗi loại cần được ghi rõ nguồn và giới hạn.
+
+### Mai Tuấn Anh - 2A202603574
+Phần việc phụ trách:
+- CP5 — Phân tích và xây dựng quy trình trước/sau .
+- CP5 — Xây dựng Problem Statement v0, xác định Actor, quy trình, Bottleneck, Impact, Success Metric và Boundary.
+Đóng góp cụ thể (mình đã làm gì, ra sản phẩm gì):
+- Phân tích quy trình hiện tại gồm 6 bước, xác định thời gian thực hiện và các điểm gây tốn thời gian cho trưởng nhóm.
+- Đề xuất quy trình tương lai, xác định các bước có thể tự động hóa và vai trò kiểm soát của con người.
+- Xây dựng bảng so sánh Before/After về số bước, thời gian thực hiện, mức độ thủ công và rủi ro phát sinh.
+- Xây dựng Problem Statement v0, xác định rõ đối tượng gặp vấn đề, nút thắt chính, tác động, chỉ số đánh giá thành công và giới hạn của giải pháp.
+Bằng chứng (phần nào trong group_report.md, file nào trong report/assets/, commit nào):
+- group_report.md — Mục 4.1: Quy trình hiện tại.
+- group_report.md — Mục 4.2: Quy trình tương lai.
+- group_report.md — Mục 4.3: Bảng Before/After.
+- group_report.md — Mục 5: Problem Statement v0.
+- group_report.md — Mục 5: Phản biện và điều chỉnh Problem Statement.
+Điều mình học được từ phần nhóm:
+- Biết cách phân tích một quy trình thực tế, xác định Actor, Input, Output và Bottleneck.
+- Hiểu cách so sánh quy trình trước và sau khi áp dụng giải pháp dựa trên các chỉ số cụ thể.
+- Nhận ra rằng không phải vấn đề nào cũng cần AI; cần xác định đúng nút thắt và đánh giá rủi ro trước khi lựa chọn mức độ can thiệp công nghệ.
+
 
 ### HoVaTen-MSSV
 
