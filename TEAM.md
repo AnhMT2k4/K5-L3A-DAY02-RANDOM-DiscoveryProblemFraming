@@ -15,8 +15,8 @@
 | 1 | Vũ Đức Tâm | 2A202603522 | Thành Viên | https://github.com/vuductam20022004 |
 | 2 | Nguyễn Khánh Duy | 2A202603575 | Thành viên | https://github.com/ZuyNoNguyen |
 | 3 | Mai Tuấn Anh   | 2A202603574  | Trưởng nhóm | https://github.com/AnhMT2k4/|
-| 3 | | | | |
-| 4 | | | | |
+| 4 | Phạm Đức Hồng Đức|2A202603558 |Thành Viên |https://github.com/DucPham1501 |
+| 5 | | | | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -31,8 +31,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP4 — Research | Nguyễn Khánh Duy | Đức, Tâm, Tuấn Anh | Bảng research có link |
 | CP5 — Quy trình trước/sau | Mai Tuấn Anh| Duy, Đức, Tâm| Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Mai Tuấn Anh| Duy, Đức, Tâm| Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | Phạm Đức Hồng Đức |Duy, Đức, Tâm | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định |Phạm Đức Hồng Đức |Duy, Đức, Tâm | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
@@ -108,20 +108,29 @@ Bằng chứng (phần nào trong group_report.md, file nào trong report/assets
 - Nhận ra rằng không phải vấn đề nào cũng cần AI; cần xác định đúng nút thắt và đánh giá rủi ro trước khi lựa chọn mức độ can thiệp công nghệ.
 
 
-### HoVaTen-MSSV
+### PhamDucHongDuc-2A202603558
 
 **Phần việc phụ trách:**
+- CP6 — Phụ trách chính phần Mức can thiệp AI và xây dựng Problem Statement v1.
+- CP6 — Phụ trách đánh giá 4 nhóm rủi ro và đề xuất quyết định Go / Not Yet / No-Go.
 
--
+**Đóng góp cụ thể (mình đã làm gì, ra sản phẩm gì):**
+- Phân tích độ mơ hồ, độ phức tạp và so sánh 4 mức can thiệp: No AI, Rule, Workflow và Agent.
+- Đề xuất chọn **Workflow (Rule + AI + Human-in-the-loop)** để hỗ trợ tổng hợp và viết báo cáo, có con người kiểm duyệt.
+- Xây dựng AI Canvas và phân tích 2 câu hỏi Google PAIR về vai trò và rủi ro của AI.
+- Hoàn thiện Problem Statement v1, bổ sung điểm can thiệp AI, giới hạn và tiêu chí đánh giá.
+- Đánh giá 4 nhóm rủi ro (Value, Usability, Feasibility, Viability) và đề xuất **Go** cho thử nghiệm nhỏ (pilot).
 
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
--
-
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
--
+**Bằng chứng (phần nào trong group_report.md, file nào trong report/assets/, commit nào):**
+- `report/team/group_report.md` — Mục 6.1: Ma trận độ mơ hồ và độ phức tạp.
+- `report/team/group_report.md` — Mục 6.2: So sánh 4 mức can thiệp AI.
+- `report/team/group_report.md` — Mục 6.3 và 6.4: AI Canvas và hai câu hỏi Google PAIR.
+- `report/team/group_report.md` — Mục 7: Problem Statement v1 và tiêu chí đánh giá đầu ra của AI.
+- `report/team/group_report.md` — Mục 8: Đánh giá 4 nhóm rủi ro, quyết định và kế hoạch thử nghiệm.
+- Các nội dung trên là phần việc CP6 được phân công; chưa bổ sung mã commit hoặc pull request cụ thể.
 
 **Điều mình học được từ phần nhóm:**
-
--
+- Hiểu rằng cần đánh giá mức độ phức tạp và tính chất của vấn đề trước khi lựa chọn AI, thay vì mặc định AI là giải pháp tốt nhất.
+- Học được cách phân biệt No AI, Rule, Workflow và Agent, từ đó lựa chọn phương án phù hợp với nhu cầu và khả năng triển khai thực tế.
+- Biết được rằng AI nên đóng vai trò hỗ trợ những công việc lặp lại, còn con người vẫn cần kiểm tra và quyết định cuối cùng để đảm bảo độ chính xác.
+- Hiểu rõ hơn cách xây dựng tiêu chí đánh giá, phân tích rủi ro và đề xuất thử nghiệm trước khi quyết định triển khai giải pháp rộng rãi.
