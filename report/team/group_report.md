@@ -249,3 +249,71 @@ Nguồn tài liệu chính thức đã được mở, đọc và đối chiếu 
 Thị trường đã có đầy đủ các công cụ từ mức đơn giản nhất (Google Sheets) đến mức Workflow tích hợp AI (Asana) và Agent tự động (Notion). Tuy nhiên, đối với bài toán báo cáo tuần của nhóm học tập quy mô 3–5 người:
 - **Tự xây dựng AI hay Agent là lãng phí và thừa thãi** (over-engineering).
 - **Phương án tối ưu nhất:** Kết hợp cấu trúc dữ liệu bảng của **Google Sheets** (No AI / Rule mức thấp) với một **Template báo cáo chuẩn hóa**. Đây là cơ sở vững chắc để nhóm đưa ra quyết định **Not Yet** đối với AI và tập trung triển khai thử nghiệm giải pháp **No AI** ở các bước tiếp theo.
+
+## 4. Quy trình trước/sau (CP5)
+
+### 4.1. Quy trình hiện tại
+
+HIỆN TẠI — 6 bước - 60 phút, 6/6 bước thủ công
+
+[ 1. Kiểm tra công việc trên GitHub: 5'] -> [ 2. Thu thập tiến độ từ Google Sheets: 10' ] -> [ 3. Đọc tin nhắn và cập nhật từ các thành viên: 10'] ->  [4. Tổng hợp kết quả vào Google Docs: 15'] -> [ 5. Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo: 15'] -> [ 6. Kiểm tra, chỉnh sửa và gửi báo cáo: 5'] 
+
+
+| Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
+|---:|---|---|---|---|---|
+|1. Kiểm tra công việc trên GitHub|Trưởng nhóm|Danh sách issue, pull request, trạng thái công việc|Thông tin task đã hoàn thành, đang thực hiện hoặc bị trì hoãn|5 phút/Tuần|Phải kiểm tra từng task và đối chiếu trạng thái|
+|2. Thu thập tiến độ từ Google Sheets|Trưởng nhóm|Bảng theo dõi tiến độ của các thành viên|Dữ liệu tiến độ của từng thành viên|10 phút/Tuần|Thông tin có thể chưa được cập nhật đầy đủ hoặc đồng nhất|
+|3. Đọc tin nhắn và cập nhật từ thành viên|Trưởng nhóm|Tin nhắn trên Slack, nhóm chat và cập nhật cá nhân|Thông tin về kết quả, khó khăn và vấn đề phát sinh|10 phút/Tuần|Thông tin nằm rải rác, phải đọc và lọc thủ công|
+|4. Tổng hợp kết quả vào Google Docs|Trưởng nhóm|Dữ liệu từ GitHub, Google Sheets và nhóm chat|Bản tổng hợp tiến độ ban đầu|15 phút/Tuần|Phải sao chép, sắp xếp và định dạng lại thông tin|
+|5. Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo|Trưởng nhóm|Bản tổng hợp tiến độ, kết quả và các vấn đề phát sinh|Nội dung nhận xét, đánh giá và kế hoạch tiếp theo|15 phút/Tuần|Phải tự phân tích, kết nối thông tin và diễn đạt thành nội dung báo cáo|
+|6. Kiểm tra, chỉnh sửa và gửi báo cáo|Trưởng nhóm|Bản báo cáo hoàn chỉnh|Báo cáo cuối cùng gửi cho người quản lý hoặc các bên liên quan|5 phút/Tuần|Kiểm tra thông tin, lỗi trình bày và gửi báo cáo|
+
+
+**Bottleneck chính:** Bước 5: Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo (15 phút/lần).
+Đây là bước gây tốn nhiều công sức nhất trong quy trình vì Trưởng nhóm phải tự đọc, phân tích và kết nối thông tin thu thập từ nhiều nguồn để viết thành nội dung báo cáo có ý nghĩa.
+
+### 4.2. Quy trình tương lai
+
+TƯƠNG LAI - 4 bước - 20 phút, 2/4 bước thủ công \
+[1. AI tổng hợp dữ liệu, phân loại tiến độ(2')] <- RULE + AI
+-> [2. AI tạo bản nháp báo cáo(2')]             <- AI
+-> [3. Trưởng nhóm kiếm tra và chỉnh sửa(15')]  <- CON NGƯỜI
+-> [4. Trưởng nhóm gửi báo cáo(1').]            <- CON NGƯỜI  
+
+**BOUNDARY:** Không tự suy diễn tiến độ, owner hoặc hạn chót;
+không biến “chưa xác nhận” thành “đã xong”; trưởng nhóm duyệt và tự gửi.
+**Phương án quay về**: Bảng thiếu/lỗi → quay về nguồn gốc và mẫu báo cáo cũ,
+ghi thông tin chưa xác nhận, không tự điền thành tích cho đủ mẫu.
+
+
+### 4.3. Before / after
+
+| Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
+|---|---|---|---|
+|Số bước| 6 bước| 4 bước|Gộp các công đoạn thu thập, tổng hợp và phân tích dữ liệu thành các bước tự động có AI hỗ trợ.|
+|Tổng thời gian|60 phút/1 lần| 20 phút/1 lần| Giảm 40 phút, tương đương 66,7% thời gian.|
+|Số bước thủ công| 6/6 bước| 2/4 bước|Trước đây toàn bộ quy trình do PM thực hiện; sau đó AI hỗ trợ 2 bước đầu, con người kiểm tra và gửi báo cáo.|
+|Bottleneck chính| Bước 5: Tổng hợp dữ liệu (15 phút)|Bước 3: Trưởng nhóm kiểm tra và chỉnh sửa báo cáo (15 phút).|Bottleneck chuyển từ việc tổng hợp, viết báo cáo sang kiểm soát chất lượng nội dung AI tạo ra.|
+|Rủi ro mới phát sinh|Sai sót khi sao chép dữ liệu, bỏ sót thông tin, báo cáo chậm do thao tác thủ công|AI phân tích sai tiến độ, tạo nội dung thiếu chính xác hoặc bỏ sót rủi ro.|Cần đối chiếu với dữ liệu gốc, có Human boundary trước khi gửi và fallback về template thủ công khi AI gặp lỗi.|
+
+
+## 5. Problem Statement v0 (CP5)
+
+
+| Trường | Nội dung |
+|---|---|
+| **Actor** | Trưởng nhóm dự án học tập chịu trách nhiệm báo cáo tiến độ tuần cho giảng viên |
+| **Quy trình** | Nhận/tìm cập nhật → đọc/đối chiếu → tổng hợp/viết → kiểm tra → gửi |
+| **Bottleneck** | Candidate #1 nêu phần tổng hợp và viết tốn khoảng 25–30 phút do phải đọc và đối chiếu nhiều nguồn; chưa có số đo riêng cho từng bước |
+| **Impact** | Tốn thời gian chuẩn bị mỗi kỳ báo cáo. Chưa có số lần báo cáo sai/trễ, số người gặp hoặc tổng tác động cả nhóm để suy rộng |
+| **Success Metric** (baseline → target, cách đo) | Baseline tạm: 25–30 phút phần lõi theo tự thuật. Target đề xuất: không quá 20 phút trên báo cáo có khối lượng tương đương. Đo riêng từng bước ở ít nhất 3 báo cáo theo cách hiện tại và 3 báo cáo thử cách mới; sửa baseline nếu phạm vi bấm giờ khác tự thuật |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Không được tự suy diễn tiến độ, kết quả, người phụ trách hoặc hạn chót; trưởng nhóm phải kiểm thông tin và chịu trách nhiệm bản gửi. Nếu thử AI trong tương lai, AI cũng không tự sửa dữ liệu nguồn hoặc tự gửi |
+
+**Phản biện từ AI đối với v0**
+
+| Lỗ hổng được chỉ ra | Điều chỉnh trong bản v1 |
+|---|---|
+| Chỉ đo tốc độ có thể khiến báo cáo nhanh hơn nhưng thiếu nội dung | Thêm độ đầy đủ, độ đúng và kiểm tra nguồn |
+| Tiết kiệm cho trưởng nhóm có thể là chuyển việc sang thành viên | Đo tổng phút-người, tách thời gian cập nhật của từng người |
+| Mốc 25–30 phút chưa rõ phạm vi, chưa có nhật ký | Giữ là baseline tạm; tách phần lõi khỏi tìm nguồn, review, gửi và chờ |
+| Chưa có bằng chứng template hiện tại không đủ hoặc cần AI | Chọn No AI cho phép thử ban đầu; quyết định Not Yet cho pilot thật khi dữ liệu còn thiếu |
