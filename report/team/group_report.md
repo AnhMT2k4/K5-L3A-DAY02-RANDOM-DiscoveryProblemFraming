@@ -248,3 +248,122 @@ Nguồn tài liệu chính thức đã được mở, đọc và đối chiếu 
 Thị trường đã có đầy đủ các công cụ từ mức đơn giản nhất (Google Sheets) đến mức Workflow tích hợp AI (Asana) và Agent tự động (Notion). Tuy nhiên, đối với bài toán báo cáo tuần của nhóm học tập quy mô 3–5 người:
 - **Tự xây dựng AI hay Agent là lãng phí và thừa thãi** (over-engineering).
 - **Phương án tối ưu nhất:** Kết hợp cấu trúc dữ liệu bảng của **Google Sheets** (No AI / Rule mức thấp) với một **Template báo cáo chuẩn hóa**. Đây là cơ sở vững chắc để nhóm đưa ra quyết định **Not Yet** đối với AI và tập trung triển khai thử nghiệm giải pháp **No AI** ở các bước tiếp theo.
+
+
+## 6. Mức can thiệp AI (CP6)
+
+### 6.1. Ma trận độ mơ hồ × độ phức tạp
+
+**Độ mơ hồ trung bình × độ phức tạp trung bình.** Các bước lập báo cáo đã rõ, nhưng dữ liệu cập nhật đôi khi thiếu hoặc không thống nhất. Đây là nhận định thiết kế, chưa được đo độc lập.
+
+**Vì sao:** Dữ liệu task (người phụ trách, hạn, trạng thái, minh chứng) có thể chuẩn hóa bằng Rule. Tuy nhiên, cập nhật từ GitHub, Sheets và chat cần AI hiểu ngữ cảnh để tóm tắt. Do quy trình cố định, **Workflow (Rule + AI + người duyệt)** phù hợp hơn Agent. Thông tin thiếu hoặc mâu thuẫn phải do con người xác nhận.
+
+### 6.2. So sánh 4 mức
+
+| Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
+|---|---|---|---|---|
+| **No AI** (sửa quy trình) | Chuẩn hóa Google Sheets, trưởng nhóm tự đối chiếu và viết. | Ít task, dữ liệu rõ; trường hợp dùng Notion chuẩn hóa chỉ mất 10–12 phút/báo cáo. | Vẫn phải đọc nhiều nguồn và tự tổng hợp. | Dùng làm **đối chứng**. |
+| **Rule** | Kiểm tra trường bắt buộc, lọc task, báo thiếu minh chứng/quá hạn. | Dữ liệu có cấu trúc, quy tắc ổn định. | Khó hiểu cập nhật tự do hoặc mâu thuẫn. | **Kết hợp** trong Workflow. |
+| **Workflow** | Rule kiểm tra → AI soạn báo cáo có nguồn → trưởng nhóm duyệt và gửi. | Cần tổng hợp nhiều nguồn nhưng các bước đã rõ. | AI có thể ghi sai hoặc bỏ sót; cần kiểm chứng. | **Chọn để pilot.** |
+| **Agent** | Tự truy cập nguồn, hỏi thành viên và lập báo cáo. | Cần hành động linh hoạt giữa nhiều hệ thống. | Khó kiểm soát quyền, lỗi và chi phí. | Không chọn. |
+
+**Mức chọn: Workflow.** Rule phát hiện dữ liệu thiếu; AI tạo bản nháp từ thông tin đã có; trưởng nhóm kiểm tra và tự gửi. Không tự sửa nguồn, nhắn thành viên hoặc gửi báo cáo (*Human-in-the-loop*).
+
+**Vì sao không chọn mức đơn giản hơn:** Hai trưởng nhóm mất khoảng 40–45 phút/báo cáo, chủ yếu để đọc, kiểm tra và đối chiếu cập nhật. Một trưởng nhóm dùng Notion chuẩn hóa chỉ mất 10–12 phút. Vì vậy, nhóm sẽ thử xem AI có giúp thêm ở phần tóm tắt, nhận xét và lập kế hoạch hay không. Nếu không hiệu quả hơn No AI/Rule, sẽ không tiếp tục dùng AI.
+
+### 6.3. AI Canvas rút gọn
+
+| Thành phần | Nội dung |
+|---|---|
+| **Prediction** — AI dự đoán / tạo ra gì? | Soạn báo cáo nháp về việc hoàn thành, đang làm, bị chặn, rủi ro và kế hoạch tuần tới; kèm nguồn. Thiếu thông tin thì ghi **Cần xác nhận**, không đoán. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Trưởng nhóm đối chiếu với nguồn, xác minh tiến độ và quyết định sửa hoặc hỏi lại. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Trưởng nhóm duyệt, sửa và **tự gửi**. AI không sửa nguồn, nhắn thành viên hay gửi. |
+| **Outcome** — đo kết quả bằng gì? | Đo thời gian đầu-cuối, tổng phút-người, số lỗi, phần bỏ sót và số lần sửa; so sánh No AI/Rule với Workflow trên cùng dữ liệu. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Task (ID, owner, trạng thái, hạn, minh chứng), dữ liệu GitHub/Sheets/chat và mẫu báo cáo. Nguồn đã xác định nhưng chưa đủ dữ liệu và quyền truy cập; pilot dùng bản xuất thủ công, ẩn thông tin nhạy cảm. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Lưu bản nháp, bản sửa, lỗi và lý do sửa; đánh giá theo rubric để chỉnh Rule và prompt. Không tự huấn luyện trên dữ liệu cá nhân khi chưa được đồng ý. |
+
+### 6.4. Hai câu hỏi của Google PAIR
+
+- **Người dùng muốn được hỗ trợ (augment) hay giao hẳn việc (automate)? Bằng chứng:** Chọn **augment** để AI hỗ trợ đọc và soạn nháp, Rule xử lý phần kiểm tra rõ ràng. Phỏng vấn cho thấy khó khăn nằm ở đọc, đối chiếu và xác minh cập nhật. Chưa hỏi trực tiếp về mức sẵn sàng giao việc cho AI nên lựa chọn này cần kiểm chứng.
+- **AI sai kiểu nào tệ hơn, báo nhầm hay bỏ sót?** Nặng nhất là báo task chưa xong thành đã xong; bỏ sót task quan trọng/blocker cũng nguy hiểm. AI phải dẫn nguồn, đánh dấu **Cần xác nhận** và liệt kê phần thiếu; trưởng nhóm duyệt trước khi gửi.
+
+---
+
+## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
+
+| Trường | Nội dung |
+|---|---|
+| **Actor** | Trưởng nhóm dự án học tập, phụ trách báo cáo tiến độ tuần cho giảng viên. |
+| **Quy trình** | Thu thập GitHub/Sheets/chat → Rule kiểm tra thiếu/mâu thuẫn → AI soạn nháp → trưởng nhóm kiểm tra, sửa và gửi. |
+| **Bottleneck** | Đọc và đối chiếu thông tin phân tán rồi viết báo cáo thống nhất. Cần đo riêng thời gian xác minh và viết; 15 phút viết trong sơ đồ hiện tại mới là ước lượng. |
+| **Impact** | Hai trưởng nhóm mất khoảng 45 và 40 phút/báo cáo; người dùng Notion chuẩn hóa mất 10–12 phút. Nhóm RANDOM ước tính 60 phút cho toàn quy trình. Khác phạm vi đo nên chưa thể so sánh trực tiếp. |
+| **Success Metric** (baseline → target, cách đo) | **Baseline tạm:** ~60 phút/báo cáo từ thu thập đến gửi. **Target thử nghiệm:** ≤20 phút, không báo sai Done/bỏ sót task quan trọng và không tăng tổng phút-người. Đo ít nhất 3 bộ dữ liệu tương đương cho No AI/Rule và Workflow; tách thời gian từng người, thời gian sửa và lỗi. Chưa phải kết quả thực đo. |
+| **Boundary** | AI không suy đoán trạng thái, kết quả, owner, hạn hay minh chứng; không sửa nguồn, nhắn thành viên hoặc tự gửi. Dữ liệu thiếu/mâu thuẫn phải yêu cầu xác nhận. |
+| **AI intervention point** | Sau Rule, AI tóm tắt, nhóm ý, nêu khó khăn có nguồn và viết bản nháp; trưởng nhóm phê duyệt. |
+| **Mức chọn** | **Workflow** (Rule + AI + người duyệt); so với No AI/Rule trên cùng dữ liệu. |
+| **Rủi ro & người kiểm tra** | AI có thể bịa chi tiết, sai trạng thái, bỏ sót blocker, lộ dữ liệu hoặc tăng thời gian sửa. **Trưởng nhóm** kiểm tra nguồn, hỏi lại khi cần và chịu trách nhiệm bản gửi. |
+
+**Thay đổi so với v0 và lý do:**
+
+| Trường | v0 | v1 | Vì sao đổi |
+|---|---|---|---|
+| Bottleneck | Gộp tổng hợp và viết; ước 25–30 phút phần lõi. | Tách xác minh dữ liệu khỏi soạn báo cáo. | Phỏng vấn cho thấy dữ liệu phân tán, thiếu trạng thái/minh chứng; viết chưa chắc là bước chậm nhất. |
+| Giải pháp | Chưa chốt AI; có phương án No AI. | Pilot **Workflow**, giữ No AI/Rule làm đối chứng. | Cần kiểm chứng lợi ích AI thay vì mặc định hiệu quả. |
+| Chỉ số | Ước 25–30 phút cho phần lõi. | Đo toàn quy trình (~60 phút tạm tính), tổng phút-người và độ đúng/đủ. | Hai mốc đo khác phạm vi; nhanh nhưng sai không phải cải thiện. |
+| Boundary | Trưởng nhóm kiểm và gửi, AI không suy đoán. | Thêm dẫn nguồn, **Cần xác nhận**, cấm tự sửa/gửi, có fallback. | Hạn chế báo sai, bỏ sót và mất kiểm soát. |
+
+**Tiêu chí đánh giá đầu ra của AI (5 tiêu chí):**
+
+| # | Tiêu chí | Đạt khi | Không đạt khi |
+|---:|---|---|---|
+| 1 | **Độ chính xác của trạng thái** | Không ghi sai Done/In Progress/Blocked; không coi chưa xác nhận là đã xong. | Có trạng thái trái dữ liệu đã xác minh. |
+| 2 | **Độ đầy đủ** | Có 100% task quan trọng/blocker; nêu rõ chỗ thiếu thông tin. | Bỏ sót task/blocker quan trọng hoặc giấu thông tin thiếu. |
+| 3 | **Khả năng truy vết nguồn** | Mỗi kết luận chính có ID/link nguồn để kiểm tra. | Kết luận quan trọng không có nguồn đối chiếu. |
+| 4 | **Khả năng sử dụng và chỉnh sửa** | Đúng mẫu giảng viên, dễ đọc và chỉnh mà không phải viết lại nhiều. | Sai mẫu, khó hiểu hoặc phải viết lại phần lớn. |
+| 5 | **Hiệu quả đầu-cuối** | Workflow ≤20 phút và nhanh hơn No AI/Rule; không tăng tổng phút-người. | Không nhanh hơn, tốn công hơn hoặc không đạt tiêu chí 1–3. |
+
+---
+
+## 8. Quyết định (CP6)
+
+### 8.1. Bốn rủi ro
+
+| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
+|---|---|---|---|
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **TB** | Hai người mất 40–45 phút/báo cáo, nhưng dùng Notion chuẩn hóa chỉ 10–12 phút. Chưa rõ AI tốt hơn No AI/Rule bao nhiêu. |
+| **Usability** | Người dùng có hiểu, dùng và sửa đầu ra AI không? | **TB** | Quen báo cáo dạng bảng, nhưng chưa thử bản AI có dẫn nguồn/cảnh báo. |
+| **Feasibility** | Có đủ dữ liệu, công cụ và kỹ năng không? | **TB** | Đã xác định GitHub, Sheets, chat; còn thiếu dữ liệu được phép dùng, bộ đáp án và kết quả đo. Pilot có thể xuất dữ liệu thủ công. |
+| **Viability** | Có phù hợp chi phí, pháp lý và tổ chức không? Ai vận hành? | **TB** | Cần kiểm tra quyền chia sẻ dữ liệu, chi phí API và quy định lớp. Trưởng nhóm chịu trách nhiệm bản gửi. |
+
+### 8.2. Kết luận
+
+**Quyết định: Go — đề xuất pilot Workflow quy mô nhỏ, chưa triển khai chính thức.** Đây là đề xuất trong báo cáo, chưa phải quyết định đã được toàn nhóm xác nhận.
+
+**Lý do chọn thử nghiệm:** Hai trưởng nhóm mất 40–45 phút/báo cáo để thu thập và kiểm tra cập nhật; đôi khi thiếu trạng thái hoặc minh chứng. Nhóm muốn thử **Rule kiểm tra → AI soạn nháp → trưởng nhóm duyệt và gửi**. Tuy nhiên, người dùng Notion chuẩn hóa chỉ mất 10–12 phút, nên phải so sánh với **No AI/Rule** trước khi kết luận AI có ích.
+
+**Nếu Go — thử nghiệm nhỏ nhất:** Dùng ít nhất 3 bộ dữ liệu tuần được phép sử dụng (hoặc dữ liệu mô phỏng có đáp án). Mỗi bộ thử cả No AI/Rule và Workflow; đo thời gian từng bước, tổng phút-người, lỗi trạng thái, task bỏ sót, nội dung thiếu nguồn và số lần sửa. Có thể xuất dữ liệu thủ công. **Chỉ trưởng nhóm duyệt và gửi.**
+
+**Nếu chưa đủ điều kiện để triển khai rộng — cần kiểm chứng gì:** Xác nhận quyền dữ liệu, chất lượng đầu vào, yêu cầu của giảng viên và thử với trưởng nhóm khác; so sánh nhiều tuần thay vì một lần.
+
+**Nếu quyết định không tiếp tục giải pháp có AI — phương án thay thế:** Dùng Google Sheets chuẩn hóa, checklist xác nhận, mẫu báo cáo và Rule báo thiếu/quá hạn.
+
+**Ngưỡng dừng:** Sau **ít nhất 3 lượt thử tương đương**, dừng hoặc sửa Workflow nếu lọt lỗi báo sai Done, bỏ sót task/blocker quan trọng, tăng tổng phút-người hoặc không nhanh hơn No AI/Rule. Quay về **template + checklist No AI/Rule** cho đến khi khắc phục. Mốc ≤20 phút không đủ nếu báo cáo sai.
+
+---
+
+## 9. Hạn chế và hướng tiếp theo
+
+- Chưa có bảng kết quả chạy thử để so sánh Workflow với phương án chỉ dùng mẫu và quy tắc; mức 60 phút hiện tại và mục tiêu 20 phút của quy trình mới là **ước tính/kỳ vọng**, chưa phải cải thiện thực đo.
+- Ba bản tóm tắt phỏng vấn trưởng nhóm dự án học tập (đồ án Kỹ thuật phần mềm, bài tập lớn Kinh tế và nghiên cứu khoa học sinh viên) đã được ghi lại trong báo cáo nhưng cần lưu biên bản hoặc ghi chép gốc, xác nhận quyền sử dụng và kiểm tra lại mốc thời gian. Phần mở đầu của tài liệu và phần phỏng vấn hiện có mô tả trạng thái kiểm chứng chưa thống nhất, cần đối chiếu bằng chứng trước khi nộp.
+- Chốt mẫu dữ liệu đầu vào, định nghĩa Done/Blocked, tiêu chí task quan trọng, rubric đối chiếu và quyền chia sẻ dữ liệu trước khi chạy pilot.
+- Chọn mức can thiệp sau pilot dựa trên kết quả so sánh, không chọn AI chỉ vì muốn áp dụng công nghệ.
+
+## 10. Tài liệu tham khảo
+
+- Tài liệu và snapshot phỏng vấn nhóm đã ghi tại **mục 3.2** của báo cáo này.
+- [Google Sheets — Dropdown](https://support.google.com/docs/answer/186103?hl=en); [Google Sheets — Filter](https://support.google.com/docs/answer/3540681?hl=en).
+- [Asana — Smart Status](https://help.asana.com/s/article/smart-status).
+- [Notion — Automate project updates and reporting](https://www.notion.com/help/guides/automate-project-updates-and-reporting-with-custom-agents).
+- **Google PAIR:** [People + AI Guidebook](https://pair.withgoogle.com/guidebook/).
+
+
