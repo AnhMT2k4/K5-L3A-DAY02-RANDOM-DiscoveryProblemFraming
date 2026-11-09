@@ -123,15 +123,15 @@ Quy trình nháp tương lai:
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Chuẩn bị và trình bày Problem Card về việc tổng hợp báo cáo tiến độ hằng tuần| Làm rõ actor, bối cảnh, quy trình hiện tại, bottleneck và metric để nhóm có cơ sở phản biện.|
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Trong 50–60 tin nhắn mỗi ngày, thực tế có bao nhiêu thông báo quan trọng bị bỏ lỡ? Vấn đề là số lượng tin nhắn quá nhiều hay do chưa có cách lọc thông báo hiệu quả?| Giúp bạn xác định cần có số liệu cụ thể về tủ lệ thông báo quan trọng bị bỏ lỡ.|
+| Nhận phản biện | Câu hỏi tôi nhận được: Khó khăn chính là tìm tài liệu phù hợp hay đọc và đánh giá chất lượng tài liệu? Có số liệu về thời gian trung bình để chọn được một tài liệu hữu ích không?| Tôi đã sửa gì: Tôi đã sửa gì: Làm rõ hơn bottleneck trong quy trình tìm kiếm và lựa chọn tài liệu, phân biệt giữa khó khăn khi tìm tài liệu và khó khăn khi đánh giá chất lượng. Đồng thời bổ sung metric về thời gian trung bình để tìm được một tài liệu hữu ích nhằm đo lường vấn đề cụ thể hơn.|
+| Gom cluster / cây OST | Tôi và các bạn cùng thảo luận để gom thành 5 cluter| Giúp nhóm phân chia được cluster|
+| Chọn candidate problem | Tôi đã tham gia chấm điểm các problem của nhóm cùng với nhóm|    Giúp nhóm chọn được problem có điểm cao nhất |
+| Kiểm chứng / research | Cùng với nhóm đi tham gia phỏng vấn các nhóm trưởng khác | Thu thập bằng chứng thực tế |
+| Quy trình nhóm | Phân tích quy trình Weekly Report gồm 6 bước, ước tính tổng thời gian khoảng 60 phút; đề xuất quy trình tương lai rút xuống khoảng 20 phút.| Xác định phần tổng hợp và viết báo cáo là bottleneck cần ưu tiên cải thiện.|
+| Problem Statement | Cùng nhóm thảo luận phân tích các trường | Giúp nhóm thống nhất actor, nhu cầu, bối cảnh và tác động của vấn đề.|
+| Mức can thiệp AI | Định hướng AI hỗ trợ tổng hợp dữ liệu, phân loại tiến độ và tạo bản nháp; người phụ trách kiểm tra, chỉnh sửa và quyết định gửi.| Giữ quyền kiểm soát nội dung cuối cùng ở con người, hạn chế rủi ro báo cáo sai hoặc thiếu thông tin.|
+| Quyết định | Cùng với nhóm thảo luận về các rủi ro và kết luận| Giúp nhóm thông nhất các rủi ro và kết luận |
 
 ---
 
@@ -155,18 +155,17 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 - Mỗi người đều có 1 vấn đề riêng,  các bạn đều chỉ khá rõ actor, quy trình và khó khăn trong từng vấn đề của mình.
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-- Chưa
-
+- Chưa có
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 - Tôi đã đổi ý sau 1 lần phản biện, khi mà các thành viên chỉ rõ metric giảm thời gian chưa đủ, cần phải có độ chính xác và rõ ràng hơn.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Qua hoạt động kiểm chứng, tôi nhận thấy cần quan tâm đến cách các nhóm khác đang thu thập, quản lý và tổng hợp tiến độ. Điều này giúp tôi hiểu rằng một vấn đề chỉ thực sự có cơ sở để lựa chọn khi có thể tìm thấy những khó khăn tương tự từ người gặp vấn đề.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+-Khi viết Problem Statement cho Weekly Report, nhóm phải thống nhất được ai là người gặp vấn đề, họ cần thực hiện công việc gì, gặp khó khăn trong hoàn cảnh nào và hậu quả của khó khăn đó.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+- Tôi sẽ chú ý hơn đến chất lượng thông tin đầu ra, chẳng hạn tỷ lệ thông tin chính xác, số nội dung bị thiếu và số lần phải chỉnh sửa. Khi phản biện nhóm, tôi muốn đặt nhiều câu hỏi hơn về tính khả thi của các metric, dữ liệu đầu vào và những trường hợp AI có thể tổng hợp sai.
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+Problem của nhóm RANDOM là trưởng nhóm mất nhiều thời gian tổng hợp tiến độ công việc hằng tuần từ GitHub, Google Sheets và tin nhắn của các thành viên. Quy trình hiện tại gồm 6 bước, mất khoảng 60 phút, trong đó khâu tổng hợp dữ liệu và viết báo cáo là bottleneck chính. Nhóm đặt mục tiêu giảm thời gian hoàn thành báo cáo xuống dưới 20 phút nhưng vẫn phải đảm bảo thông tin đầy đủ, chính xác và không tăng số lần chỉnh sửa. Về boundary, nhóm tập trung hỗ trợ công việc tổng hợp báo cáo tiến độ, không thay thế hoàn toàn vai trò quản lý và đánh giá của trưởng nhóm. AI được sử dụng để thu thập, phân loại thông tin tiến độ, nhận diện khó khăn và tạo bản nháp báo cáo. Người phụ trách vẫn phải kiểm tra, chỉnh sửa và xác nhận nội dung trước khi gửi cho giảng viên. Cuối cùng, nhóm lựa chọn hướng sử dụng AI như một công cụ hỗ trợ thay vì giao toàn bộ quy trình và quyền quyết định cho AI.
 ---
 
 ## 7. Tài liệu tham khảo
