@@ -53,14 +53,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Job Story | Khi đến thời điểm báo cáo tiến độ hằng tuần, tôi muốn tổng hợp nhanh công việc và kết quả từ nhiều nguồn, để gửi báo cáo đầy đủ, chính xác và đúng hạn. |
 | Actor | Trưởng nhóm dự án chịu trách nhiệm gửi báo cáo cho giảng viên.|
 | Thời điểm / bối cảnh | Cuối tuần hoặc đầu tuần mới|
-| Quy trình hiện tại (3–7 bước) |
-    1. Kiểm tra công việc trên GitHub. 
-    2. Thu thập tiến độ từ Google Sheets. 
-    3. Đọc tin nhắn và cập nhật từ các thành viên. 
-    4. Tổng hợp kết quả vào Google Docs. 
-    5. Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo. 
-    6. Kiểm tra, chỉnh sửa và gửi báo cáo. 
-|
+| Quy trình hiện tại (3–7 bước) |1. Kiểm tra công việc trên GitHub. 2. Thu thập tiến độ từ Google Sheets. 3. Đọc tin nhắn và cập nhật từ các thành viên. 4. Tổng hợp kết quả vào Google Docs. 5. Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo. 6. Kiểm tra, chỉnh sửa và gửi báo cáo. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước tổng hợp và viết nội dung báo cáo mất nhiều thời gian do phải đọc, đối chiếu dữ liệu từ nhiều nguồn. Ước tính 25–30 phút cho phần này. |
 | Impact (nếu không giải thì sao) | Mất 30-60 phút mỗi lần báo cáo. Nếu chậm hoặc thiếu thông tin giảng viên có thể khó nắm bắt tiến độ và đưa ra quyết định kịp thời.|
 | Success metric (baseline → target) | Thời gian hoàn thành báo cáo: 60 phút → dưới 20 phút. Đảm bảo báo cáo đầy đủ các mục và không tăng số lần phải chỉnh sửa.|
@@ -81,14 +74,7 @@ Quy trình nháp tương lai:
 | Job Story | Khi thực hiện bài tập lớn hoặc đồ án, tôi muốn tìm được những tài liệu nghiên cứu phù hợp với chủ đề, để tiết kiệm thời gian và có đủ nguồn thông tin đáng tin cậy phục vụ nghiên cứu. |
 | Actor | Sinh viên |
 | Thời điểm / bối cảnh | Khi bắt đầu nghiên cứu một đề tài, xây dựng cơ sở lý thuyết hoặc tìm tài liệu tham khảo cho báo cáo. |
-| Quy trình hiện tại (3–7 bước) | 
-    1. Xác định chủ đề và từ khóa tìm kiếm. 
-    2. Tìm kiếm trên Google Scholar và các website khoa học. 
-    3. Mở từng bài báo hoặc tài liệu PDF. 
-    4. Đọc tiêu đề, abstract và nội dung chính.
-    5. Xem xét mức độ liên quan. 
-    6. Lưu lại những tài liệu phù hợp.
-|
+| Quy trình hiện tại (3–7 bước) | 1. Xác định chủ đề và từ khóa tìm kiếm. 2. Tìm kiếm trên Google Scholar và các website khoa học. 3. Mở từng bài báo hoặc tài liệu PDF. 4. Đọc tiêu đề, abstract và nội dung chính.5. Xem xét mức độ liên quan. 6. Lưu lại những tài liệu phù hợp.|
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước đọc và đánh giá tài liệu mất nhiều thời gian vì phải mở từng tài liệu, kiểm tra nội dung và xác định mức độ liên quan đến đề tài. |
 | Impact (nếu không giải thì sao) | Ước tính mất 1–2 giờ để tìm tài liệu cho một chủ đề. Việc tìm kiếm không hiệu quả có thể khiến sinh viên bỏ sót tài liệu quan trọng hoặc sử dụng nguồn không phù hợp.|
 | Success metric (baseline → target) | Thời gian tìm kiếm: 1–2 giờ → dưới 30 phút. Tỷ lệ tài liệu được đánh giá là phù hợp không thấp hơn phương pháp tìm kiếm hiện tại.|
@@ -108,14 +94,7 @@ Quy trình nháp tương lai:
 | Job Story | Khi bắt đầu một dự án hoặc nhận danh sách công việc mới, tôi muốn đánh giá khối lượng và độ phức tạp của từng task dựa trên năng lực thành viên, để phân chia công việc hợp lý và đảm bảo tiến độ chung. |
 | Actor | Trưởng nhóm, thành viên|
 | Thời điểm / bối cảnh | Khi bắt đầu dự án, lập kế hoạch sprint hoặc khi phát sinh task mới cần phân công.|
-| Quy trình hiện tại (3–7 bước) | 
-    	1. Tiếp nhận danh sách công việc cần thực hiện. 
-        2. Phân tích yêu cầu của từng task. 
-        3. Ước lượng thời gian và độ khó. 
-        4. Xem xét năng lực và khối lượng công việc hiện tại của từng thành viên. 
-        5. Phân công task cho các thành viên. 
-        6. Theo dõi tiến độ và điều chỉnh khi cần.
-|
+| Quy trình hiện tại (3–7 bước) | 1. Tiếp nhận danh sách công việc cần thực hiện. 2. Phân tích yêu cầu của từng task. 3. Ước lượng thời gian và độ khó.  4. Xem xét năng lực và khối lượng công việc hiện tại của từng thành viên.  5. Phân công task cho các thành viên. 6. Theo dõi tiến độ và điều chỉnh khi cần.|
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–4: Trưởng nhóm phải tự đọc, đánh giá độ phức tạp của từng task và đối chiếu với năng lực thành viên. Việc ước lượng thường mang tính chủ quan.|
 | Impact (nếu không giải thì sao) | Một số thành viên có thể bị quá tải trong khi thành viên khác có ít việc hơn. Task khó có nguy cơ bị giao cho người chưa đủ kinh nghiệm, dẫn đến chậm deadline và phải phân công lại.|
 | Success metric (baseline → target) | Thời gian lập kế hoạch và phân công task giảm ít nhất 30%. Tỷ lệ task hoàn thành đúng hạn tăng so với cách phân công ban đầu. |
