@@ -53,7 +53,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Job Story | Khi đến thời điểm báo cáo tiến độ hằng tuần, tôi muốn tổng hợp nhanh công việc và kết quả từ nhiều nguồn, để gửi báo cáo đầy đủ, chính xác và đúng hạn. |
 | Actor | Trưởng nhóm dự án chịu trách nhiệm gửi báo cáo cho giảng viên.|
 | Thời điểm / bối cảnh | Cuối tuần hoặc đầu tuần mới|
-| Quy trình hiện tại (3–7 bước) |1. Kiểm tra công việc trên GitHub. 2. Thu thập tiến độ từ Google Sheets. 3. Đọc tin nhắn và cập nhật từ các thành viên. 4. Tổng hợp kết quả vào Google Docs. 5. Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo. 6. Kiểm tra, chỉnh sửa và gửi báo cáo. |
+| Quy trình hiện tại (3–7 bước) |1. Kiểm tra công việc trên GitHub -> 2. Thu thập tiến độ từ Google Sheets -> 3. Đọc tin nhắn và cập nhật từ các thành viên -> 4. Tổng hợp kết quả vào Google Docs -> 5. Viết nội dung đánh giá tiến độ, khó khăn và công việc tiếp theo -> 6. Kiểm tra, chỉnh sửa và gửi báo cáo. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước tổng hợp và viết nội dung báo cáo mất nhiều thời gian do phải đọc, đối chiếu dữ liệu từ nhiều nguồn. Ước tính 25–30 phút cho phần này. |
 | Impact (nếu không giải thì sao) | Mất 30-60 phút mỗi lần báo cáo. Nếu chậm hoặc thiếu thông tin giảng viên có thể khó nắm bắt tiến độ và đưa ra quyết định kịp thời.|
 | Success metric (baseline → target) | Thời gian hoàn thành báo cáo: 60 phút → dưới 20 phút. Đảm bảo báo cáo đầy đủ các mục và không tăng số lần phải chỉnh sửa.|
@@ -64,8 +64,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 1. Kiếm tra trên GitHub(5') -> 2. Thu thập tiến độ từ Sheets(10') -> 3.Đọc tin nhắn và cập nhập từ các thành viên(10') -> 4. Tổng hợp kết quả vào Docs(15') -> 5. Viết nội dung báo cáo(15') -> 6. Kiểm tra và gửi báo cáo (5').
 
-Quy trình nháp tương lai:
-1. AI tổng hợp dữ liệu, phân loại tiến độ(2') -> 2. AI tạo bản nháp báo cáo(2') -> 3. Trưởng nhóm kiếm tra và chỉnh sửa(15') -> 4. Trưởng nhóm gửi báo cáo(1').
+
 
 ### Problem Card #2
 
@@ -74,7 +73,7 @@ Quy trình nháp tương lai:
 | Job Story | Khi thực hiện bài tập lớn hoặc đồ án, tôi muốn tìm được những tài liệu nghiên cứu phù hợp với chủ đề, để tiết kiệm thời gian và có đủ nguồn thông tin đáng tin cậy phục vụ nghiên cứu. |
 | Actor | Sinh viên |
 | Thời điểm / bối cảnh | Khi bắt đầu nghiên cứu một đề tài, xây dựng cơ sở lý thuyết hoặc tìm tài liệu tham khảo cho báo cáo. |
-| Quy trình hiện tại (3–7 bước) | 1. Xác định chủ đề và từ khóa tìm kiếm. 2. Tìm kiếm trên Google Scholar và các website khoa học. 3. Mở từng bài báo hoặc tài liệu PDF. 4. Đọc tiêu đề, abstract và nội dung chính.5. Xem xét mức độ liên quan. 6. Lưu lại những tài liệu phù hợp.|
+| Quy trình hiện tại (3–7 bước) | 1. Xác định chủ đề và từ khóa tìm kiếm -> 2. Tìm kiếm trên Google Scholar và các website khoa học -> 3. Mở từng bài báo hoặc tài liệu PDF -> 4. Đọc tiêu đề, abstract và nội dung chính -> 5. Xem xét mức độ liên quan -> 6. Lưu lại những tài liệu phù hợp.|
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước đọc và đánh giá tài liệu mất nhiều thời gian vì phải mở từng tài liệu, kiểm tra nội dung và xác định mức độ liên quan đến đề tài. |
 | Impact (nếu không giải thì sao) | Ước tính mất 1–2 giờ để tìm tài liệu cho một chủ đề. Việc tìm kiếm không hiệu quả có thể khiến sinh viên bỏ sót tài liệu quan trọng hoặc sử dụng nguồn không phù hợp.|
 | Success metric (baseline → target) | Thời gian tìm kiếm: 1–2 giờ → dưới 30 phút. Tỷ lệ tài liệu được đánh giá là phù hợp không thấp hơn phương pháp tìm kiếm hiện tại.|
@@ -85,8 +84,6 @@ Quy trình nháp tương lai:
 Quy trình nháp hiện tại:
 1. Xác định chủ đề và từ khóa tìm kiếm(5') -> 2. Tìm kiếm trên Google và các website(5') -> 3. Mở từng bài báo hoặc PDF(10') -> 4. Đọc tiêu đề và nội dung(60') -> 5. Xem xét mực độ liên quan(10') -> 6.Lưu lại những tại liệu phù hợp(10').
 
-Quy trình nháp tương lai:
-1. AI hỗ trợ tìm kiếm tài liệu theo từ khóa, chủ đề(5') -> 2. AI tổng hợp các nội dung liên quan và nguồn(5') -> 3. Sinh viên kiểm tra và lựa chọn nội dung(20').
 ### Problem Card #3
 
 | Trường | Nội dung |
@@ -94,7 +91,7 @@ Quy trình nháp tương lai:
 | Job Story | Khi bắt đầu một dự án hoặc nhận danh sách công việc mới, tôi muốn đánh giá khối lượng và độ phức tạp của từng task dựa trên năng lực thành viên, để phân chia công việc hợp lý và đảm bảo tiến độ chung. |
 | Actor | Trưởng nhóm, thành viên|
 | Thời điểm / bối cảnh | Khi bắt đầu dự án, lập kế hoạch sprint hoặc khi phát sinh task mới cần phân công.|
-| Quy trình hiện tại (3–7 bước) | 1. Tiếp nhận danh sách công việc cần thực hiện. 2. Phân tích yêu cầu của từng task. 3. Ước lượng thời gian và độ khó.  4. Xem xét năng lực và khối lượng công việc hiện tại của từng thành viên.  5. Phân công task cho các thành viên. 6. Theo dõi tiến độ và điều chỉnh khi cần.|
+| Quy trình hiện tại (3–7 bước) | 1. Tiếp nhận danh sách công việc cần thực hiện -> 2. Phân tích yêu cầu của từng task -> 3. Ước lượng thời gian và độ khó -> 4. Xem xét năng lực và khối lượng công việc hiện tại của từng thành viên -> 5. Phân công task cho các thành viên -> 6. Theo dõi tiến độ và điều chỉnh khi cần.|
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–4: Trưởng nhóm phải tự đọc, đánh giá độ phức tạp của từng task và đối chiếu với năng lực thành viên. Việc ước lượng thường mang tính chủ quan.|
 | Impact (nếu không giải thì sao) | Một số thành viên có thể bị quá tải trong khi thành viên khác có ít việc hơn. Task khó có nguy cơ bị giao cho người chưa đủ kinh nghiệm, dẫn đến chậm deadline và phải phân công lại.|
 | Success metric (baseline → target) | Thời gian lập kế hoạch và phân công task giảm ít nhất 30%. Tỷ lệ task hoàn thành đúng hạn tăng so với cách phân công ban đầu. |
@@ -109,15 +106,15 @@ Quy trình nháp tương lai:
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 1 – Weekly Report (Tổng hợp báo cáo tiến độ hằng tuần).
+- Vì sao: Vấn đề xảy ra lặp lại theo tuần, có quy trình hiện tại tương đối rõ ràng và có thể đo được thời gian thực hiện. Nhóm có thể thử nghiệm trên các nguồn dữ liệu quen thuộc như GitHub, Google Sheets và tin nhắn. Đây là vấn đề AI có thể hỗ trợ nhưng vẫn cần người phụ trách kiểm tra trước khi gửi.
+- Câu hỏi muốn nhóm phản biện: Nếu AI giúp rút ngắn thời gian tổng hợp báo cáo từ 60 phút xuống dưới 20 phút, cần đánh giá thêm tiêu chí nào để chứng minh báo cáo vẫn đầy đủ, chính xác và đáng tin cậy?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Metric ban đầu chủ yếu đo thời gian hoàn thành, chưa phản ánh chất lượng báo cáo. Báo cáo được tạo nhanh hơn nhưng thiếu thông tin hoặc sai dữ liệu thì chưa thể xem là thành công.| Yes | Bổ sung tiêu chí chất lượng bên cạnh thời gian: báo cáo phải đầy đủ các mục, thông tin chính xác và không làm tăng số lần phải chỉnh sửa. Người phụ trách vẫn kiểm tra bản nháp trước khi gửi.|
 
 ---
 
@@ -125,7 +122,7 @@ Quy trình nháp tương lai:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
+| Pitch Problem Card | Chuẩn bị và trình bày Problem Card về việc tổng hợp báo cáo tiến độ hằng tuần| Làm rõ actor, bối cảnh, quy trình hiện tại, bottleneck và metric để nhóm có cơ sở phản biện.|
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
 | Gom cluster / cây OST | | |
@@ -142,10 +139,10 @@ Quy trình nháp tương lai:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
+| CP1 Scan | Gợi ý và mở rộng danh sách problem theo các lăng kính như lặp lại, tốn thời gian và cần tổng hợp nhiều thông tin.| Có thêm góc nhìn, tránh chỉ tập trung vào vấn đề kỹ thuật; hỗ trợ diễn đạt ý tưởng thành Job Story.| Một số ý tưởng còn chung chung, chưa có bằng chứng về tần suất hoặc mức độ ảnh hưởng.| Sửa 1 vài thông tin chính xác hơn|
+| CP2 Problem Card | Hỗ trợ cấu trúc Job Story, actor, quy trình, bottleneck, impact và success metric cho các candidate.| Giúp trình bày các problem theo cùng cấu trúc để dễ so sánh.| Metric có thể chỉ tập trung vào tốc độ hoặc đặt mục tiêu khi chưa có baseline đủ chắc chắn.| Đối chiếu quy trình, ghi rõ các bước và thời gian ước tính; bổ sung yêu cầu chất lượng bên cạnh thời gian.|
 | CP4 Research | | | | |
-| CP5 Quy trình | | | | |
+| CP5 Quy trình |Hỗ trợ rà soát quy trình hiện tại và đề xuất các bước AI có thể hỗ trợ trong quy trình tương lai. | Giúp nhìn rõ điểm nghẽn ở khâu đọc, đối chiếu dữ liệu và viết báo cáo.| Đề xuất tự động hóa có thể bỏ qua bước xác minh dữ liệu hoặc chưa tính đến trường hợp AI tổng hợp sai.| Không giao toàn bộ quyết định cho AI.|
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
 
@@ -156,11 +153,11 @@ Quy trình nháp tương lai:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+- Mỗi người đều có 1 vấn đề riêng,  các bạn đều chỉ khá rõ actor, quy trình và khó khăn trong từng vấn đề của mình.
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+- Tôi đã đổi ý sau 1 lần phản biện, khi mà các thành viên chỉ rõ metric giảm thời gian chưa đủ, cần phải có độ chính xác và rõ ràng hơn.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
