@@ -155,6 +155,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 - Mỗi người đều có 1 vấn đề riêng,  các bạn đều chỉ khá rõ actor, quy trình và khó khăn trong từng vấn đề của mình.
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+- Chưa
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 - Tôi đã đổi ý sau 1 lần phản biện, khi mà các thành viên chỉ rõ metric giảm thời gian chưa đủ, cần phải có độ chính xác và rõ ràng hơn.
