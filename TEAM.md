@@ -4,9 +4,9 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: RANDOM
+- Candidate problem nhóm chọn (1 câu): Đề xuất #1 — Trưởng nhóm dự án học tập tổng hợp và viết báo cáo tiến độ hằng tuần gửi giảng viên; xem căn cứ lựa chọn và trạng thái đồng thuận trong `report/team/group_report.md`.
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet — đề xuất từ bản phân tích CP6; chưa ghi nhận đồng thuận nhóm. Phương án thiết kế thử ban đầu là No AI.
 
 ## Thành viên
 
