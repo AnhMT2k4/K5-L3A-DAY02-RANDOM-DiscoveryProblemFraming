@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Phạm Đức Hồng Đức 
+- MSSV: 2A202603558
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm:RANDOM
+- Link repo nhóm: https://github.com/AnhMT2k4/K5-L3A-DAY02-RANDOM-DiscoveryProblemFraming
 
 ---
 
